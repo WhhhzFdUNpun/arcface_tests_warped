@@ -85,3 +85,4 @@ Training: 2021-10-26 10:04:54,108-Speed 420.44 samples/sec   Loss 30.1498   Lear
 Training: 2021-10-26 10:05:09,341-Speed 420.34 samples/sec   Loss 30.0586   LearningRate 0.0250000   Epoch: 0   Global Step: 2450   Required: 0 hours
 Training: 2021-10-26 10:05:19,794-Pytorch Model Saved in '/output/webface_r18_1024/backbone.pth'
 Training: 2021-10-26 10:05:21,169-Pytorch Model Saved in '/output/webface_r18_1024/backbone_000.pth'
+Training: 2021-10-26 10:29:55,069-rank_id: 0
