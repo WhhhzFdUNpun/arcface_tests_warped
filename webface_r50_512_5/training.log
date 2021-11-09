@@ -1,0 +1,941 @@
+Training: 2021-11-09 10:15:04,798-rank_id: 0
+Training: 2021-11-09 10:15:10,959-backbone resume successfully!
+Training: 2021-11-09 10:15:11,070-softmax weight init!
+Training: 2021-11-09 10:15:11,070-softmax weight mom init!
+Training: 2021-11-09 10:15:11,071-: loss                     arcface
+Training: 2021-11-09 10:15:11,071-: network                  r50
+Training: 2021-11-09 10:15:11,071-: resume                   True
+Training: 2021-11-09 10:15:11,071-: output                   /output/webface_r50_512_5
+Training: 2021-11-09 10:15:11,072-: dataset                  webface
+Training: 2021-11-09 10:15:11,072-: embedding_size           512
+Training: 2021-11-09 10:15:11,072-: sample_rate              1
+Training: 2021-11-09 10:15:11,072-: fp16                     False
+Training: 2021-11-09 10:15:11,072-: momentum                 0.9
+Training: 2021-11-09 10:15:11,072-: weight_decay             0.0005
+Training: 2021-11-09 10:15:11,072-: batch_size               64
+Training: 2021-11-09 10:15:11,072-: lr                       0.1
+Training: 2021-11-09 10:15:11,072-: rec                      /data
+Training: 2021-11-09 10:15:11,072-: num_classes              10572
+Training: 2021-11-09 10:15:11,072-: num_image                forget
+Training: 2021-11-09 10:15:11,072-: num_epoch                6
+Training: 2021-11-09 10:15:11,073-: warmup_epoch             -1
+Training: 2021-11-09 10:15:11,073-: decay_epoch              [3]
+Training: 2021-11-09 10:15:11,073-: val_targets              ['agedb_30', 'dev_00', 'dev_04']
+Training: 2021-11-09 10:15:11,073-: resume_file              /pretrained/backbone.pth
+Training: 2021-11-09 10:15:11,073-: warmup_step              -6197
+Training: 2021-11-09 10:15:11,073-: total_step               37182
+Training: 2021-11-09 10:15:11,073-: decay_step               [18592]
+Training: 2021-11-09 10:15:11,073-Dataset initialization
+Training: 2021-11-09 10:17:01,589-Dataset initialization completed
+Training: 2021-11-09 10:17:05,509-Reducer buckets have been rebuilt in this iteration.
+Training: 2021-11-09 10:18:19,356-Speed 168.01 samples/sec   Loss 46.5714   LearningRate 0.0250000   Epoch: 0   Global Step: 100   Required: 8 hours
+Training: 2021-11-09 10:18:53,447-Speed 187.74 samples/sec   Loss 45.4893   LearningRate 0.0250000   Epoch: 0   Global Step: 150   Required: 8 hours
+Training: 2021-11-09 10:19:23,617-Speed 212.15 samples/sec   Loss 43.6715   LearningRate 0.0250000   Epoch: 0   Global Step: 200   Required: 7 hours
+Training: 2021-11-09 10:19:50,639-Speed 236.87 samples/sec   Loss 42.1333   LearningRate 0.0250000   Epoch: 0   Global Step: 250   Required: 7 hours
+Training: 2021-11-09 10:20:16,436-Speed 248.12 samples/sec   Loss 40.7195   LearningRate 0.0250000   Epoch: 0   Global Step: 300   Required: 7 hours
+Training: 2021-11-09 10:20:42,109-Speed 249.32 samples/sec   Loss 39.4359   LearningRate 0.0250000   Epoch: 0   Global Step: 350   Required: 6 hours
+Training: 2021-11-09 10:21:07,949-Speed 247.72 samples/sec   Loss 38.4657   LearningRate 0.0250000   Epoch: 0   Global Step: 400   Required: 6 hours
+Training: 2021-11-09 10:21:33,905-Speed 246.59 samples/sec   Loss 36.9909   LearningRate 0.0250000   Epoch: 0   Global Step: 450   Required: 6 hours
+Training: 2021-11-09 10:21:59,832-Speed 246.87 samples/sec   Loss 36.0594   LearningRate 0.0250000   Epoch: 0   Global Step: 500   Required: 6 hours
+Training: 2021-11-09 10:22:25,799-Speed 246.48 samples/sec   Loss 35.1867   LearningRate 0.0250000   Epoch: 0   Global Step: 550   Required: 6 hours
+Training: 2021-11-09 10:22:51,745-Speed 246.70 samples/sec   Loss 34.4087   LearningRate 0.0250000   Epoch: 0   Global Step: 600   Required: 6 hours
+Training: 2021-11-09 10:23:17,742-Speed 246.21 samples/sec   Loss 33.4681   LearningRate 0.0250000   Epoch: 0   Global Step: 650   Required: 6 hours
+Training: 2021-11-09 10:23:43,715-Speed 246.44 samples/sec   Loss 32.4635   LearningRate 0.0250000   Epoch: 0   Global Step: 700   Required: 6 hours
+Training: 2021-11-09 10:24:09,683-Speed 246.49 samples/sec   Loss 31.9375   LearningRate 0.0250000   Epoch: 0   Global Step: 750   Required: 6 hours
+Training: 2021-11-09 10:24:35,632-Speed 246.67 samples/sec   Loss 31.1024   LearningRate 0.0250000   Epoch: 0   Global Step: 800   Required: 6 hours
+Training: 2021-11-09 10:25:01,568-Speed 246.79 samples/sec   Loss 30.6303   LearningRate 0.0250000   Epoch: 0   Global Step: 850   Required: 6 hours
+Training: 2021-11-09 10:25:27,595-Speed 245.92 samples/sec   Loss 29.9359   LearningRate 0.0250000   Epoch: 0   Global Step: 900   Required: 6 hours
+Training: 2021-11-09 10:25:53,628-Speed 245.87 samples/sec   Loss 29.3668   LearningRate 0.0250000   Epoch: 0   Global Step: 950   Required: 6 hours
+Training: 2021-11-09 10:26:19,664-Speed 245.84 samples/sec   Loss 28.4951   LearningRate 0.0250000   Epoch: 0   Global Step: 1000   Required: 6 hours
+Training: 2021-11-09 10:26:45,676-Speed 246.08 samples/sec   Loss 28.3853   LearningRate 0.0250000   Epoch: 0   Global Step: 1050   Required: 6 hours
+Training: 2021-11-09 10:27:11,682-Speed 246.12 samples/sec   Loss 27.8190   LearningRate 0.0250000   Epoch: 0   Global Step: 1100   Required: 6 hours
+Training: 2021-11-09 10:27:37,668-Speed 246.32 samples/sec   Loss 27.2744   LearningRate 0.0250000   Epoch: 0   Global Step: 1150   Required: 6 hours
+Training: 2021-11-09 10:28:03,711-Speed 245.77 samples/sec   Loss 26.6789   LearningRate 0.0250000   Epoch: 0   Global Step: 1200   Required: 6 hours
+Training: 2021-11-09 10:28:29,774-Speed 245.57 samples/sec   Loss 26.4687   LearningRate 0.0250000   Epoch: 0   Global Step: 1250   Required: 5 hours
+Training: 2021-11-09 10:28:55,843-Speed 245.54 samples/sec   Loss 26.0683   LearningRate 0.0250000   Epoch: 0   Global Step: 1300   Required: 5 hours
+Training: 2021-11-09 10:29:21,927-Speed 245.38 samples/sec   Loss 25.7914   LearningRate 0.0250000   Epoch: 0   Global Step: 1350   Required: 5 hours
+Training: 2021-11-09 10:29:47,907-Speed 246.38 samples/sec   Loss 25.3684   LearningRate 0.0250000   Epoch: 0   Global Step: 1400   Required: 5 hours
+Training: 2021-11-09 10:30:13,881-Speed 246.41 samples/sec   Loss 24.5333   LearningRate 0.0250000   Epoch: 0   Global Step: 1450   Required: 5 hours
+Training: 2021-11-09 10:30:39,907-Speed 245.92 samples/sec   Loss 24.4561   LearningRate 0.0250000   Epoch: 0   Global Step: 1500   Required: 5 hours
+Training: 2021-11-09 10:31:05,943-Speed 245.85 samples/sec   Loss 24.5753   LearningRate 0.0250000   Epoch: 0   Global Step: 1550   Required: 5 hours
+Training: 2021-11-09 10:31:31,988-Speed 245.74 samples/sec   Loss 24.0459   LearningRate 0.0250000   Epoch: 0   Global Step: 1600   Required: 5 hours
+Training: 2021-11-09 10:31:57,987-Speed 246.20 samples/sec   Loss 23.7500   LearningRate 0.0250000   Epoch: 0   Global Step: 1650   Required: 5 hours
+Training: 2021-11-09 10:32:23,996-Speed 246.08 samples/sec   Loss 23.0391   LearningRate 0.0250000   Epoch: 0   Global Step: 1700   Required: 5 hours
+Training: 2021-11-09 10:32:50,022-Speed 245.94 samples/sec   Loss 23.0199   LearningRate 0.0250000   Epoch: 0   Global Step: 1750   Required: 5 hours
+Training: 2021-11-09 10:33:16,043-Speed 245.99 samples/sec   Loss 22.8158   LearningRate 0.0250000   Epoch: 0   Global Step: 1800   Required: 5 hours
+Training: 2021-11-09 10:33:42,068-Speed 245.95 samples/sec   Loss 22.6985   LearningRate 0.0250000   Epoch: 0   Global Step: 1850   Required: 5 hours
+Training: 2021-11-09 10:34:08,070-Speed 246.17 samples/sec   Loss 22.1935   LearningRate 0.0250000   Epoch: 0   Global Step: 1900   Required: 5 hours
+Training: 2021-11-09 10:34:34,081-Speed 246.08 samples/sec   Loss 22.0489   LearningRate 0.0250000   Epoch: 0   Global Step: 1950   Required: 5 hours
+Training: 2021-11-09 10:35:00,092-Speed 246.07 samples/sec   Loss 21.9660   LearningRate 0.0250000   Epoch: 0   Global Step: 2000   Required: 5 hours
+Training: 2021-11-09 10:36:30,433-[agedb_30][2000]XNorm: 15.954793
+Training: 2021-11-09 10:36:30,434-[agedb_30][2000]Accuracy-Flip: 0.70983+-0.02567
+Training: 2021-11-09 10:36:30,434-[agedb_30][2000]Accuracy-Highest: 0.70983
+Training: 2021-11-09 10:40:13,208-[dev_00][2000]XNorm: 16.953402
+Training: 2021-11-09 10:40:13,208-[dev_00][2000]Accuracy-Flip: 0.51733+-0.04224
+Training: 2021-11-09 10:40:13,208-[dev_00][2000]Accuracy-Highest: 0.51733
+Training: 2021-11-09 10:41:51,528-[dev_04][2000]XNorm: 17.020011
+Training: 2021-11-09 10:41:51,528-[dev_04][2000]Accuracy-Flip: 0.48718+-0.02451
+Training: 2021-11-09 10:41:51,528-[dev_04][2000]Accuracy-Highest: 0.48718
+Training: 2021-11-09 10:42:18,040-Speed 14.61 samples/sec   Loss 21.7539   LearningRate 0.0250000   Epoch: 0   Global Step: 2050   Required: 7 hours
+Training: 2021-11-09 10:42:44,593-Speed 241.06 samples/sec   Loss 21.4084   LearningRate 0.0250000   Epoch: 0   Global Step: 2100   Required: 7 hours
+Training: 2021-11-09 10:43:11,008-Speed 242.30 samples/sec   Loss 21.4403   LearningRate 0.0250000   Epoch: 0   Global Step: 2150   Required: 7 hours
+Training: 2021-11-09 10:43:37,411-Speed 242.43 samples/sec   Loss 21.4428   LearningRate 0.0250000   Epoch: 0   Global Step: 2200   Required: 7 hours
+Training: 2021-11-09 10:44:03,850-Speed 242.10 samples/sec   Loss 21.3102   LearningRate 0.0250000   Epoch: 0   Global Step: 2250   Required: 7 hours
+Training: 2021-11-09 10:44:30,356-Speed 241.49 samples/sec   Loss 20.7873   LearningRate 0.0250000   Epoch: 0   Global Step: 2300   Required: 7 hours
+Training: 2021-11-09 10:44:56,914-Speed 241.00 samples/sec   Loss 20.8807   LearningRate 0.0250000   Epoch: 0   Global Step: 2350   Required: 7 hours
+Training: 2021-11-09 10:45:23,449-Speed 241.21 samples/sec   Loss 20.7544   LearningRate 0.0250000   Epoch: 0   Global Step: 2400   Required: 7 hours
+Training: 2021-11-09 10:45:49,959-Speed 241.45 samples/sec   Loss 20.5384   LearningRate 0.0250000   Epoch: 0   Global Step: 2450   Required: 7 hours
+Training: 2021-11-09 10:46:16,361-Speed 242.44 samples/sec   Loss 20.5358   LearningRate 0.0250000   Epoch: 0   Global Step: 2500   Required: 7 hours
+Training: 2021-11-09 10:46:42,710-Speed 242.93 samples/sec   Loss 20.3838   LearningRate 0.0250000   Epoch: 0   Global Step: 2550   Required: 7 hours
+Training: 2021-11-09 10:47:08,954-Speed 243.89 samples/sec   Loss 20.2534   LearningRate 0.0250000   Epoch: 0   Global Step: 2600   Required: 7 hours
+Training: 2021-11-09 10:47:35,163-Speed 244.22 samples/sec   Loss 20.1919   LearningRate 0.0250000   Epoch: 0   Global Step: 2650   Required: 7 hours
+Training: 2021-11-09 10:48:01,374-Speed 244.20 samples/sec   Loss 20.2450   LearningRate 0.0250000   Epoch: 0   Global Step: 2700   Required: 7 hours
+Training: 2021-11-09 10:48:27,503-Speed 244.97 samples/sec   Loss 20.0163   LearningRate 0.0250000   Epoch: 0   Global Step: 2750   Required: 7 hours
+Training: 2021-11-09 10:48:53,620-Speed 245.09 samples/sec   Loss 20.0320   LearningRate 0.0250000   Epoch: 0   Global Step: 2800   Required: 7 hours
+Training: 2021-11-09 10:49:19,689-Speed 245.53 samples/sec   Loss 19.4193   LearningRate 0.0250000   Epoch: 0   Global Step: 2850   Required: 6 hours
+Training: 2021-11-09 10:49:45,783-Speed 245.31 samples/sec   Loss 19.5668   LearningRate 0.0250000   Epoch: 0   Global Step: 2900   Required: 6 hours
+Training: 2021-11-09 10:50:11,884-Speed 245.22 samples/sec   Loss 19.3303   LearningRate 0.0250000   Epoch: 0   Global Step: 2950   Required: 6 hours
+Training: 2021-11-09 10:50:37,929-Speed 245.76 samples/sec   Loss 19.5316   LearningRate 0.0250000   Epoch: 0   Global Step: 3000   Required: 6 hours
+Training: 2021-11-09 10:51:04,014-Speed 245.35 samples/sec   Loss 19.6556   LearningRate 0.0250000   Epoch: 0   Global Step: 3050   Required: 6 hours
+Training: 2021-11-09 10:51:30,071-Speed 245.66 samples/sec   Loss 19.2707   LearningRate 0.0250000   Epoch: 0   Global Step: 3100   Required: 6 hours
+Training: 2021-11-09 10:51:56,130-Speed 245.61 samples/sec   Loss 19.0578   LearningRate 0.0250000   Epoch: 0   Global Step: 3150   Required: 6 hours
+Training: 2021-11-09 10:52:22,174-Speed 245.77 samples/sec   Loss 19.4208   LearningRate 0.0250000   Epoch: 0   Global Step: 3200   Required: 6 hours
+Training: 2021-11-09 10:52:48,264-Speed 245.34 samples/sec   Loss 19.2526   LearningRate 0.0250000   Epoch: 0   Global Step: 3250   Required: 6 hours
+Training: 2021-11-09 10:53:14,280-Speed 246.03 samples/sec   Loss 19.2425   LearningRate 0.0250000   Epoch: 0   Global Step: 3300   Required: 6 hours
+Training: 2021-11-09 10:53:40,263-Speed 246.33 samples/sec   Loss 19.0484   LearningRate 0.0250000   Epoch: 0   Global Step: 3350   Required: 6 hours
+Training: 2021-11-09 10:54:06,262-Speed 246.20 samples/sec   Loss 19.2315   LearningRate 0.0250000   Epoch: 0   Global Step: 3400   Required: 6 hours
+Training: 2021-11-09 10:54:32,258-Speed 246.22 samples/sec   Loss 18.8040   LearningRate 0.0250000   Epoch: 0   Global Step: 3450   Required: 6 hours
+Training: 2021-11-09 10:54:58,288-Speed 245.90 samples/sec   Loss 19.3234   LearningRate 0.0250000   Epoch: 0   Global Step: 3500   Required: 6 hours
+Training: 2021-11-09 10:55:24,331-Speed 245.79 samples/sec   Loss 18.8237   LearningRate 0.0250000   Epoch: 0   Global Step: 3550   Required: 6 hours
+Training: 2021-11-09 10:55:50,379-Speed 245.73 samples/sec   Loss 18.6071   LearningRate 0.0250000   Epoch: 0   Global Step: 3600   Required: 6 hours
+Training: 2021-11-09 10:56:16,439-Speed 245.62 samples/sec   Loss 18.8700   LearningRate 0.0250000   Epoch: 0   Global Step: 3650   Required: 6 hours
+Training: 2021-11-09 10:56:42,522-Speed 245.40 samples/sec   Loss 18.4728   LearningRate 0.0250000   Epoch: 0   Global Step: 3700   Required: 6 hours
+Training: 2021-11-09 10:57:08,530-Speed 246.11 samples/sec   Loss 19.0071   LearningRate 0.0250000   Epoch: 0   Global Step: 3750   Required: 6 hours
+Training: 2021-11-09 10:57:34,549-Speed 246.00 samples/sec   Loss 18.6162   LearningRate 0.0250000   Epoch: 0   Global Step: 3800   Required: 6 hours
+Training: 2021-11-09 10:58:00,540-Speed 246.27 samples/sec   Loss 18.2869   LearningRate 0.0250000   Epoch: 0   Global Step: 3850   Required: 6 hours
+Training: 2021-11-09 10:58:26,530-Speed 246.28 samples/sec   Loss 18.7629   LearningRate 0.0250000   Epoch: 0   Global Step: 3900   Required: 6 hours
+Training: 2021-11-09 10:58:52,583-Speed 245.68 samples/sec   Loss 18.2689   LearningRate 0.0250000   Epoch: 0   Global Step: 3950   Required: 6 hours
+Training: 2021-11-09 10:59:18,683-Speed 245.23 samples/sec   Loss 18.4215   LearningRate 0.0250000   Epoch: 0   Global Step: 4000   Required: 6 hours
+Training: 2021-11-09 11:00:48,590-[agedb_30][4000]XNorm: 16.262936
+Training: 2021-11-09 11:00:48,590-[agedb_30][4000]Accuracy-Flip: 0.72950+-0.02767
+Training: 2021-11-09 11:00:48,590-[agedb_30][4000]Accuracy-Highest: 0.72950
+Training: 2021-11-09 11:04:31,244-[dev_00][4000]XNorm: 17.687307
+Training: 2021-11-09 11:04:31,244-[dev_00][4000]Accuracy-Flip: 0.52700+-0.04979
+Training: 2021-11-09 11:04:31,244-[dev_00][4000]Accuracy-Highest: 0.52700
+Training: 2021-11-09 11:06:09,557-[dev_04][4000]XNorm: 17.713424
+Training: 2021-11-09 11:06:09,558-[dev_04][4000]Accuracy-Flip: 0.49114+-0.02055
+Training: 2021-11-09 11:06:09,558-[dev_04][4000]Accuracy-Highest: 0.49114
+Training: 2021-11-09 11:06:36,052-Speed 14.63 samples/sec   Loss 18.4232   LearningRate 0.0250000   Epoch: 0   Global Step: 4050   Required: 7 hours
+Training: 2021-11-09 11:07:02,640-Speed 240.74 samples/sec   Loss 18.1685   LearningRate 0.0250000   Epoch: 0   Global Step: 4100   Required: 7 hours
+Training: 2021-11-09 11:07:29,048-Speed 242.39 samples/sec   Loss 18.1547   LearningRate 0.0250000   Epoch: 0   Global Step: 4150   Required: 7 hours
+Training: 2021-11-09 11:07:55,468-Speed 242.27 samples/sec   Loss 18.4010   LearningRate 0.0250000   Epoch: 0   Global Step: 4200   Required: 7 hours
+Training: 2021-11-09 11:08:22,011-Speed 241.14 samples/sec   Loss 18.2946   LearningRate 0.0250000   Epoch: 0   Global Step: 4250   Required: 7 hours
+Training: 2021-11-09 11:08:48,519-Speed 241.47 samples/sec   Loss 18.2808   LearningRate 0.0250000   Epoch: 0   Global Step: 4300   Required: 7 hours
+Training: 2021-11-09 11:09:15,037-Speed 241.35 samples/sec   Loss 18.1181   LearningRate 0.0250000   Epoch: 0   Global Step: 4350   Required: 7 hours
+Training: 2021-11-09 11:09:41,515-Speed 241.74 samples/sec   Loss 18.0135   LearningRate 0.0250000   Epoch: 0   Global Step: 4400   Required: 7 hours
+Training: 2021-11-09 11:10:07,984-Speed 241.82 samples/sec   Loss 18.1280   LearningRate 0.0250000   Epoch: 0   Global Step: 4450   Required: 7 hours
+Training: 2021-11-09 11:10:34,395-Speed 242.36 samples/sec   Loss 18.0423   LearningRate 0.0250000   Epoch: 0   Global Step: 4500   Required: 6 hours
+Training: 2021-11-09 11:11:00,736-Speed 242.99 samples/sec   Loss 18.0313   LearningRate 0.0250000   Epoch: 0   Global Step: 4550   Required: 6 hours
+Training: 2021-11-09 11:11:26,998-Speed 243.73 samples/sec   Loss 17.9689   LearningRate 0.0250000   Epoch: 0   Global Step: 4600   Required: 6 hours
+Training: 2021-11-09 11:11:53,215-Speed 244.14 samples/sec   Loss 17.8166   LearningRate 0.0250000   Epoch: 0   Global Step: 4650   Required: 6 hours
+Training: 2021-11-09 11:12:19,391-Speed 244.52 samples/sec   Loss 18.2085   LearningRate 0.0250000   Epoch: 0   Global Step: 4700   Required: 6 hours
+Training: 2021-11-09 11:12:45,542-Speed 244.77 samples/sec   Loss 18.0524   LearningRate 0.0250000   Epoch: 0   Global Step: 4750   Required: 6 hours
+Training: 2021-11-09 11:13:11,672-Speed 244.95 samples/sec   Loss 17.9766   LearningRate 0.0250000   Epoch: 0   Global Step: 4800   Required: 6 hours
+Training: 2021-11-09 11:13:37,767-Speed 245.29 samples/sec   Loss 18.0721   LearningRate 0.0250000   Epoch: 0   Global Step: 4850   Required: 6 hours
+Training: 2021-11-09 11:14:03,840-Speed 245.49 samples/sec   Loss 17.5484   LearningRate 0.0250000   Epoch: 0   Global Step: 4900   Required: 6 hours
+Training: 2021-11-09 11:14:29,910-Speed 245.51 samples/sec   Loss 17.7707   LearningRate 0.0250000   Epoch: 0   Global Step: 4950   Required: 6 hours
+Training: 2021-11-09 11:14:55,975-Speed 245.57 samples/sec   Loss 17.7824   LearningRate 0.0250000   Epoch: 0   Global Step: 5000   Required: 6 hours
+Training: 2021-11-09 11:15:22,029-Speed 245.67 samples/sec   Loss 17.7840   LearningRate 0.0250000   Epoch: 0   Global Step: 5050   Required: 6 hours
+Training: 2021-11-09 11:15:48,046-Speed 246.02 samples/sec   Loss 17.6068   LearningRate 0.0250000   Epoch: 0   Global Step: 5100   Required: 6 hours
+Training: 2021-11-09 11:16:14,084-Speed 245.83 samples/sec   Loss 17.7521   LearningRate 0.0250000   Epoch: 0   Global Step: 5150   Required: 6 hours
+Training: 2021-11-09 11:16:40,112-Speed 245.92 samples/sec   Loss 17.9777   LearningRate 0.0250000   Epoch: 0   Global Step: 5200   Required: 6 hours
+Training: 2021-11-09 11:17:06,155-Speed 245.78 samples/sec   Loss 17.6784   LearningRate 0.0250000   Epoch: 0   Global Step: 5250   Required: 6 hours
+Training: 2021-11-09 11:17:32,207-Speed 245.70 samples/sec   Loss 17.6442   LearningRate 0.0250000   Epoch: 0   Global Step: 5300   Required: 6 hours
+Training: 2021-11-09 11:17:58,271-Speed 245.59 samples/sec   Loss 17.8350   LearningRate 0.0250000   Epoch: 0   Global Step: 5350   Required: 6 hours
+Training: 2021-11-09 11:18:24,264-Speed 246.25 samples/sec   Loss 17.2907   LearningRate 0.0250000   Epoch: 0   Global Step: 5400   Required: 6 hours
+Training: 2021-11-09 11:18:50,313-Speed 245.72 samples/sec   Loss 17.5530   LearningRate 0.0250000   Epoch: 0   Global Step: 5450   Required: 6 hours
+Training: 2021-11-09 11:19:16,334-Speed 245.99 samples/sec   Loss 17.6432   LearningRate 0.0250000   Epoch: 0   Global Step: 5500   Required: 6 hours
+Training: 2021-11-09 11:19:42,298-Speed 246.53 samples/sec   Loss 17.6404   LearningRate 0.0250000   Epoch: 0   Global Step: 5550   Required: 6 hours
+Training: 2021-11-09 11:20:08,330-Speed 245.88 samples/sec   Loss 17.3957   LearningRate 0.0250000   Epoch: 0   Global Step: 5600   Required: 6 hours
+Training: 2021-11-09 11:20:34,375-Speed 245.76 samples/sec   Loss 17.2936   LearningRate 0.0250000   Epoch: 0   Global Step: 5650   Required: 6 hours
+Training: 2021-11-09 11:21:00,370-Speed 246.24 samples/sec   Loss 17.3678   LearningRate 0.0250000   Epoch: 0   Global Step: 5700   Required: 6 hours
+Training: 2021-11-09 11:21:26,385-Speed 246.03 samples/sec   Loss 17.4290   LearningRate 0.0250000   Epoch: 0   Global Step: 5750   Required: 6 hours
+Training: 2021-11-09 11:21:52,361-Speed 246.42 samples/sec   Loss 17.5819   LearningRate 0.0250000   Epoch: 0   Global Step: 5800   Required: 6 hours
+Training: 2021-11-09 11:22:18,391-Speed 245.90 samples/sec   Loss 17.3633   LearningRate 0.0250000   Epoch: 0   Global Step: 5850   Required: 6 hours
+Training: 2021-11-09 11:22:44,352-Speed 246.55 samples/sec   Loss 17.5104   LearningRate 0.0250000   Epoch: 0   Global Step: 5900   Required: 6 hours
+Training: 2021-11-09 11:23:10,355-Speed 246.16 samples/sec   Loss 17.3623   LearningRate 0.0250000   Epoch: 0   Global Step: 5950   Required: 6 hours
+Training: 2021-11-09 11:23:36,358-Speed 246.16 samples/sec   Loss 17.0624   LearningRate 0.0250000   Epoch: 0   Global Step: 6000   Required: 6 hours
+Training: 2021-11-09 11:25:06,347-[agedb_30][6000]XNorm: 16.506804
+Training: 2021-11-09 11:25:06,348-[agedb_30][6000]Accuracy-Flip: 0.73267+-0.01961
+Training: 2021-11-09 11:25:06,348-[agedb_30][6000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 11:28:49,227-[dev_00][6000]XNorm: 18.018377
+Training: 2021-11-09 11:28:49,227-[dev_00][6000]Accuracy-Flip: 0.51940+-0.03865
+Training: 2021-11-09 11:28:49,227-[dev_00][6000]Accuracy-Highest: 0.52700
+Training: 2021-11-09 11:30:27,517-[dev_04][6000]XNorm: 18.056725
+Training: 2021-11-09 11:30:27,517-[dev_04][6000]Accuracy-Flip: 0.50322+-0.02428
+Training: 2021-11-09 11:30:27,517-[dev_04][6000]Accuracy-Highest: 0.50322
+Training: 2021-11-09 11:30:54,032-Speed 14.62 samples/sec   Loss 17.5170   LearningRate 0.0250000   Epoch: 0   Global Step: 6050   Required: 6 hours
+Training: 2021-11-09 11:31:20,661-Speed 240.37 samples/sec   Loss 17.1892   LearningRate 0.0250000   Epoch: 0   Global Step: 6100   Required: 6 hours
+Training: 2021-11-09 11:31:47,098-Speed 242.12 samples/sec   Loss 17.4630   LearningRate 0.0250000   Epoch: 0   Global Step: 6150   Required: 6 hours
+Training: 2021-11-09 11:32:12,242-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
+Training: 2021-11-09 11:32:12,550-Pytorch Model Saved in '/output/webface_r50_512_5/backbone_000.pth'
+Training: 2021-11-09 11:32:15,007-Speed 229.35 samples/sec   Loss 17.1461   LearningRate 0.0250000   Epoch: 1   Global Step: 6200   Required: 6 hours
+Training: 2021-11-09 11:32:41,458-Speed 241.98 samples/sec   Loss 16.5634   LearningRate 0.0250000   Epoch: 1   Global Step: 6250   Required: 6 hours
+Training: 2021-11-09 11:33:08,004-Speed 241.11 samples/sec   Loss 16.4756   LearningRate 0.0250000   Epoch: 1   Global Step: 6300   Required: 6 hours
+Training: 2021-11-09 11:33:34,529-Speed 241.32 samples/sec   Loss 16.3360   LearningRate 0.0250000   Epoch: 1   Global Step: 6350   Required: 6 hours
+Training: 2021-11-09 11:34:01,058-Speed 241.27 samples/sec   Loss 16.3878   LearningRate 0.0250000   Epoch: 1   Global Step: 6400   Required: 6 hours
+Training: 2021-11-09 11:34:27,577-Speed 241.37 samples/sec   Loss 16.4966   LearningRate 0.0250000   Epoch: 1   Global Step: 6450   Required: 6 hours
+Training: 2021-11-09 11:34:54,001-Speed 242.23 samples/sec   Loss 16.4028   LearningRate 0.0250000   Epoch: 1   Global Step: 6500   Required: 6 hours
+Training: 2021-11-09 11:35:20,346-Speed 242.97 samples/sec   Loss 16.7425   LearningRate 0.0250000   Epoch: 1   Global Step: 6550   Required: 6 hours
+Training: 2021-11-09 11:35:46,649-Speed 243.33 samples/sec   Loss 16.4595   LearningRate 0.0250000   Epoch: 1   Global Step: 6600   Required: 6 hours
+Training: 2021-11-09 11:36:12,878-Speed 244.04 samples/sec   Loss 16.4090   LearningRate 0.0250000   Epoch: 1   Global Step: 6650   Required: 6 hours
+Training: 2021-11-09 11:36:39,065-Speed 244.44 samples/sec   Loss 16.7340   LearningRate 0.0250000   Epoch: 1   Global Step: 6700   Required: 6 hours
+Training: 2021-11-09 11:37:05,188-Speed 245.01 samples/sec   Loss 16.4841   LearningRate 0.0250000   Epoch: 1   Global Step: 6750   Required: 6 hours
+Training: 2021-11-09 11:37:31,298-Speed 245.14 samples/sec   Loss 16.8010   LearningRate 0.0250000   Epoch: 1   Global Step: 6800   Required: 6 hours
+Training: 2021-11-09 11:37:57,363-Speed 245.57 samples/sec   Loss 16.3861   LearningRate 0.0250000   Epoch: 1   Global Step: 6850   Required: 6 hours
+Training: 2021-11-09 11:38:23,394-Speed 245.90 samples/sec   Loss 16.7971   LearningRate 0.0250000   Epoch: 1   Global Step: 6900   Required: 6 hours
+Training: 2021-11-09 11:38:49,436-Speed 245.79 samples/sec   Loss 16.3147   LearningRate 0.0250000   Epoch: 1   Global Step: 6950   Required: 6 hours
+Training: 2021-11-09 11:39:15,475-Speed 245.82 samples/sec   Loss 16.6058   LearningRate 0.0250000   Epoch: 1   Global Step: 7000   Required: 6 hours
+Training: 2021-11-09 11:39:41,503-Speed 245.92 samples/sec   Loss 16.5371   LearningRate 0.0250000   Epoch: 1   Global Step: 7050   Required: 6 hours
+Training: 2021-11-09 11:40:07,507-Speed 246.15 samples/sec   Loss 16.7907   LearningRate 0.0250000   Epoch: 1   Global Step: 7100   Required: 6 hours
+Training: 2021-11-09 11:40:33,515-Speed 246.11 samples/sec   Loss 16.7285   LearningRate 0.0250000   Epoch: 1   Global Step: 7150   Required: 6 hours
+Training: 2021-11-09 11:40:59,553-Speed 245.83 samples/sec   Loss 16.7873   LearningRate 0.0250000   Epoch: 1   Global Step: 7200   Required: 6 hours
+Training: 2021-11-09 11:41:25,596-Speed 245.77 samples/sec   Loss 16.6048   LearningRate 0.0250000   Epoch: 1   Global Step: 7250   Required: 6 hours
+Training: 2021-11-09 11:41:51,596-Speed 246.19 samples/sec   Loss 16.7438   LearningRate 0.0250000   Epoch: 1   Global Step: 7300   Required: 6 hours
+Training: 2021-11-09 11:42:17,568-Speed 246.45 samples/sec   Loss 16.5385   LearningRate 0.0250000   Epoch: 1   Global Step: 7350   Required: 6 hours
+Training: 2021-11-09 11:42:43,612-Speed 245.76 samples/sec   Loss 16.5169   LearningRate 0.0250000   Epoch: 1   Global Step: 7400   Required: 6 hours
+Training: 2021-11-09 11:43:09,685-Speed 245.49 samples/sec   Loss 16.7844   LearningRate 0.0250000   Epoch: 1   Global Step: 7450   Required: 6 hours
+Training: 2021-11-09 11:43:35,736-Speed 245.70 samples/sec   Loss 16.7111   LearningRate 0.0250000   Epoch: 1   Global Step: 7500   Required: 6 hours
+Training: 2021-11-09 11:44:01,749-Speed 246.07 samples/sec   Loss 16.6809   LearningRate 0.0250000   Epoch: 1   Global Step: 7550   Required: 6 hours
+Training: 2021-11-09 11:44:27,693-Speed 246.72 samples/sec   Loss 16.6284   LearningRate 0.0250000   Epoch: 1   Global Step: 7600   Required: 6 hours
+Training: 2021-11-09 11:44:53,675-Speed 246.35 samples/sec   Loss 16.8751   LearningRate 0.0250000   Epoch: 1   Global Step: 7650   Required: 6 hours
+Training: 2021-11-09 11:45:19,683-Speed 246.12 samples/sec   Loss 16.6534   LearningRate 0.0250000   Epoch: 1   Global Step: 7700   Required: 6 hours
+Training: 2021-11-09 11:45:45,679-Speed 246.22 samples/sec   Loss 16.5371   LearningRate 0.0250000   Epoch: 1   Global Step: 7750   Required: 6 hours
+Training: 2021-11-09 11:46:11,676-Speed 246.21 samples/sec   Loss 16.6426   LearningRate 0.0250000   Epoch: 1   Global Step: 7800   Required: 6 hours
+Training: 2021-11-09 11:46:37,641-Speed 246.53 samples/sec   Loss 16.7652   LearningRate 0.0250000   Epoch: 1   Global Step: 7850   Required: 6 hours
+Training: 2021-11-09 11:47:03,657-Speed 246.03 samples/sec   Loss 16.4196   LearningRate 0.0250000   Epoch: 1   Global Step: 7900   Required: 6 hours
+Training: 2021-11-09 11:47:29,680-Speed 245.96 samples/sec   Loss 16.6851   LearningRate 0.0250000   Epoch: 1   Global Step: 7950   Required: 6 hours
+Training: 2021-11-09 11:47:55,725-Speed 245.75 samples/sec   Loss 16.8763   LearningRate 0.0250000   Epoch: 1   Global Step: 8000   Required: 6 hours
+Training: 2021-11-09 11:49:25,891-[agedb_30][8000]XNorm: 14.881789
+Training: 2021-11-09 11:49:25,892-[agedb_30][8000]Accuracy-Flip: 0.71500+-0.01982
+Training: 2021-11-09 11:49:25,892-[agedb_30][8000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 11:53:09,216-[dev_00][8000]XNorm: 17.291991
+Training: 2021-11-09 11:53:09,216-[dev_00][8000]Accuracy-Flip: 0.52133+-0.04293
+Training: 2021-11-09 11:53:09,216-[dev_00][8000]Accuracy-Highest: 0.52700
+Training: 2021-11-09 11:54:47,524-[dev_04][8000]XNorm: 17.381257
+Training: 2021-11-09 11:54:47,524-[dev_04][8000]Accuracy-Flip: 0.50275+-0.00807
+Training: 2021-11-09 11:54:47,524-[dev_04][8000]Accuracy-Highest: 0.50322
+Training: 2021-11-09 11:55:14,019-Speed 14.60 samples/sec   Loss 16.4740   LearningRate 0.0250000   Epoch: 1   Global Step: 8050   Required: 6 hours
+Training: 2021-11-09 11:55:40,627-Speed 240.56 samples/sec   Loss 16.4589   LearningRate 0.0250000   Epoch: 1   Global Step: 8100   Required: 6 hours
+Training: 2021-11-09 11:56:07,078-Speed 241.99 samples/sec   Loss 16.5908   LearningRate 0.0250000   Epoch: 1   Global Step: 8150   Required: 6 hours
+Training: 2021-11-09 11:56:33,480-Speed 242.44 samples/sec   Loss 16.7113   LearningRate 0.0250000   Epoch: 1   Global Step: 8200   Required: 6 hours
+Training: 2021-11-09 11:56:59,898-Speed 242.29 samples/sec   Loss 16.3542   LearningRate 0.0250000   Epoch: 1   Global Step: 8250   Required: 6 hours
+Training: 2021-11-09 11:57:26,344-Speed 242.04 samples/sec   Loss 16.6384   LearningRate 0.0250000   Epoch: 1   Global Step: 8300   Required: 6 hours
+Training: 2021-11-09 11:57:52,872-Speed 241.29 samples/sec   Loss 16.4969   LearningRate 0.0250000   Epoch: 1   Global Step: 8350   Required: 6 hours
+Training: 2021-11-09 11:58:19,444-Speed 240.88 samples/sec   Loss 16.6553   LearningRate 0.0250000   Epoch: 1   Global Step: 8400   Required: 6 hours
+Training: 2021-11-09 11:58:46,011-Speed 240.92 samples/sec   Loss 16.3589   LearningRate 0.0250000   Epoch: 1   Global Step: 8450   Required: 6 hours
+Training: 2021-11-09 11:59:12,413-Speed 242.44 samples/sec   Loss 16.9129   LearningRate 0.0250000   Epoch: 1   Global Step: 8500   Required: 6 hours
+Training: 2021-11-09 11:59:38,802-Speed 242.55 samples/sec   Loss 16.5847   LearningRate 0.0250000   Epoch: 1   Global Step: 8550   Required: 6 hours
+Training: 2021-11-09 12:00:05,098-Speed 243.41 samples/sec   Loss 16.5547   LearningRate 0.0250000   Epoch: 1   Global Step: 8600   Required: 6 hours
+Training: 2021-11-09 12:00:31,369-Speed 243.64 samples/sec   Loss 16.3516   LearningRate 0.0250000   Epoch: 1   Global Step: 8650   Required: 6 hours
+Training: 2021-11-09 12:00:57,559-Speed 244.39 samples/sec   Loss 16.4585   LearningRate 0.0250000   Epoch: 1   Global Step: 8700   Required: 6 hours
+Training: 2021-11-09 12:01:23,736-Speed 244.52 samples/sec   Loss 16.6742   LearningRate 0.0250000   Epoch: 1   Global Step: 8750   Required: 6 hours
+Training: 2021-11-09 12:01:49,935-Speed 244.32 samples/sec   Loss 16.6119   LearningRate 0.0250000   Epoch: 1   Global Step: 8800   Required: 6 hours
+Training: 2021-11-09 12:02:16,071-Speed 244.89 samples/sec   Loss 16.4670   LearningRate 0.0250000   Epoch: 1   Global Step: 8850   Required: 6 hours
+Training: 2021-11-09 12:02:42,217-Speed 244.80 samples/sec   Loss 16.4527   LearningRate 0.0250000   Epoch: 1   Global Step: 8900   Required: 6 hours
+Training: 2021-11-09 12:03:08,309-Speed 245.32 samples/sec   Loss 16.4716   LearningRate 0.0250000   Epoch: 1   Global Step: 8950   Required: 6 hours
+Training: 2021-11-09 12:03:34,375-Speed 245.56 samples/sec   Loss 16.4499   LearningRate 0.0250000   Epoch: 1   Global Step: 9000   Required: 6 hours
+Training: 2021-11-09 12:04:00,483-Speed 245.18 samples/sec   Loss 16.4791   LearningRate 0.0250000   Epoch: 1   Global Step: 9050   Required: 6 hours
+Training: 2021-11-09 12:04:26,520-Speed 245.82 samples/sec   Loss 16.5591   LearningRate 0.0250000   Epoch: 1   Global Step: 9100   Required: 6 hours
+Training: 2021-11-09 12:04:52,521-Speed 246.18 samples/sec   Loss 16.7255   LearningRate 0.0250000   Epoch: 1   Global Step: 9150   Required: 6 hours
+Training: 2021-11-09 12:05:18,473-Speed 246.65 samples/sec   Loss 16.5486   LearningRate 0.0250000   Epoch: 1   Global Step: 9200   Required: 5 hours
+Training: 2021-11-09 12:05:44,437-Speed 246.52 samples/sec   Loss 16.5645   LearningRate 0.0250000   Epoch: 1   Global Step: 9250   Required: 5 hours
+Training: 2021-11-09 12:06:10,409-Speed 246.45 samples/sec   Loss 16.6684   LearningRate 0.0250000   Epoch: 1   Global Step: 9300   Required: 5 hours
+Training: 2021-11-09 12:06:36,435-Speed 245.93 samples/sec   Loss 16.4552   LearningRate 0.0250000   Epoch: 1   Global Step: 9350   Required: 5 hours
+Training: 2021-11-09 12:07:02,513-Speed 245.45 samples/sec   Loss 16.1670   LearningRate 0.0250000   Epoch: 1   Global Step: 9400   Required: 5 hours
+Training: 2021-11-09 12:07:28,517-Speed 246.15 samples/sec   Loss 16.7159   LearningRate 0.0250000   Epoch: 1   Global Step: 9450   Required: 5 hours
+Training: 2021-11-09 12:07:54,556-Speed 245.81 samples/sec   Loss 16.5761   LearningRate 0.0250000   Epoch: 1   Global Step: 9500   Required: 5 hours
+Training: 2021-11-09 12:08:20,499-Speed 246.74 samples/sec   Loss 16.3856   LearningRate 0.0250000   Epoch: 1   Global Step: 9550   Required: 5 hours
+Training: 2021-11-09 12:08:46,443-Speed 246.71 samples/sec   Loss 16.5124   LearningRate 0.0250000   Epoch: 1   Global Step: 9600   Required: 5 hours
+Training: 2021-11-09 12:09:12,413-Speed 246.46 samples/sec   Loss 16.4396   LearningRate 0.0250000   Epoch: 1   Global Step: 9650   Required: 5 hours
+Training: 2021-11-09 12:09:38,386-Speed 246.43 samples/sec   Loss 16.4483   LearningRate 0.0250000   Epoch: 1   Global Step: 9700   Required: 5 hours
+Training: 2021-11-09 12:10:04,367-Speed 246.37 samples/sec   Loss 16.7182   LearningRate 0.0250000   Epoch: 1   Global Step: 9750   Required: 5 hours
+Training: 2021-11-09 12:10:30,389-Speed 245.96 samples/sec   Loss 16.4668   LearningRate 0.0250000   Epoch: 1   Global Step: 9800   Required: 5 hours
+Training: 2021-11-09 12:10:56,383-Speed 246.24 samples/sec   Loss 16.2949   LearningRate 0.0250000   Epoch: 1   Global Step: 9850   Required: 5 hours
+Training: 2021-11-09 12:11:22,361-Speed 246.39 samples/sec   Loss 16.1976   LearningRate 0.0250000   Epoch: 1   Global Step: 9900   Required: 5 hours
+Training: 2021-11-09 12:11:48,366-Speed 246.14 samples/sec   Loss 16.4324   LearningRate 0.0250000   Epoch: 1   Global Step: 9950   Required: 5 hours
+Training: 2021-11-09 12:12:14,287-Speed 246.94 samples/sec   Loss 16.3855   LearningRate 0.0250000   Epoch: 1   Global Step: 10000   Required: 5 hours
+Training: 2021-11-09 12:13:44,266-[agedb_30][10000]XNorm: 14.873581
+Training: 2021-11-09 12:13:44,266-[agedb_30][10000]Accuracy-Flip: 0.72883+-0.02177
+Training: 2021-11-09 12:13:44,266-[agedb_30][10000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 12:17:27,027-[dev_00][10000]XNorm: 17.276902
+Training: 2021-11-09 12:17:27,028-[dev_00][10000]Accuracy-Flip: 0.52013+-0.04242
+Training: 2021-11-09 12:17:27,028-[dev_00][10000]Accuracy-Highest: 0.52700
+Training: 2021-11-09 12:19:05,292-[dev_04][10000]XNorm: 17.318323
+Training: 2021-11-09 12:19:05,292-[dev_04][10000]Accuracy-Flip: 0.49817+-0.01576
+Training: 2021-11-09 12:19:05,292-[dev_04][10000]Accuracy-Highest: 0.50322
+Training: 2021-11-09 12:19:31,785-Speed 14.63 samples/sec   Loss 16.4226   LearningRate 0.0250000   Epoch: 1   Global Step: 10050   Required: 6 hours
+Training: 2021-11-09 12:19:58,355-Speed 240.90 samples/sec   Loss 16.2229   LearningRate 0.0250000   Epoch: 1   Global Step: 10100   Required: 5 hours
+Training: 2021-11-09 12:20:24,747-Speed 242.53 samples/sec   Loss 16.1741   LearningRate 0.0250000   Epoch: 1   Global Step: 10150   Required: 5 hours
+Training: 2021-11-09 12:20:51,137-Speed 242.54 samples/sec   Loss 16.1537   LearningRate 0.0250000   Epoch: 1   Global Step: 10200   Required: 5 hours
+Training: 2021-11-09 12:21:17,536-Speed 242.46 samples/sec   Loss 16.3092   LearningRate 0.0250000   Epoch: 1   Global Step: 10250   Required: 5 hours
+Training: 2021-11-09 12:21:44,045-Speed 241.46 samples/sec   Loss 16.2067   LearningRate 0.0250000   Epoch: 1   Global Step: 10300   Required: 5 hours
+Training: 2021-11-09 12:22:10,519-Speed 241.78 samples/sec   Loss 16.2123   LearningRate 0.0250000   Epoch: 1   Global Step: 10350   Required: 5 hours
+Training: 2021-11-09 12:22:37,042-Speed 241.33 samples/sec   Loss 16.0947   LearningRate 0.0250000   Epoch: 1   Global Step: 10400   Required: 5 hours
+Training: 2021-11-09 12:23:03,636-Speed 240.68 samples/sec   Loss 16.4344   LearningRate 0.0250000   Epoch: 1   Global Step: 10450   Required: 5 hours
+Training: 2021-11-09 12:23:30,134-Speed 241.54 samples/sec   Loss 16.3397   LearningRate 0.0250000   Epoch: 1   Global Step: 10500   Required: 5 hours
+Training: 2021-11-09 12:23:56,517-Speed 242.61 samples/sec   Loss 16.3807   LearningRate 0.0250000   Epoch: 1   Global Step: 10550   Required: 5 hours
+Training: 2021-11-09 12:24:22,825-Speed 243.31 samples/sec   Loss 16.2229   LearningRate 0.0250000   Epoch: 1   Global Step: 10600   Required: 5 hours
+Training: 2021-11-09 12:24:49,071-Speed 243.87 samples/sec   Loss 16.2160   LearningRate 0.0250000   Epoch: 1   Global Step: 10650   Required: 5 hours
+Training: 2021-11-09 12:25:15,258-Speed 244.43 samples/sec   Loss 16.4461   LearningRate 0.0250000   Epoch: 1   Global Step: 10700   Required: 5 hours
+Training: 2021-11-09 12:25:41,403-Speed 244.83 samples/sec   Loss 16.3136   LearningRate 0.0250000   Epoch: 1   Global Step: 10750   Required: 5 hours
+Training: 2021-11-09 12:26:07,563-Speed 244.68 samples/sec   Loss 16.3101   LearningRate 0.0250000   Epoch: 1   Global Step: 10800   Required: 5 hours
+Training: 2021-11-09 12:26:33,661-Speed 245.26 samples/sec   Loss 16.3947   LearningRate 0.0250000   Epoch: 1   Global Step: 10850   Required: 5 hours
+Training: 2021-11-09 12:26:59,750-Speed 245.34 samples/sec   Loss 16.5065   LearningRate 0.0250000   Epoch: 1   Global Step: 10900   Required: 5 hours
+Training: 2021-11-09 12:27:25,804-Speed 245.68 samples/sec   Loss 16.0877   LearningRate 0.0250000   Epoch: 1   Global Step: 10950   Required: 5 hours
+Training: 2021-11-09 12:27:51,884-Speed 245.43 samples/sec   Loss 16.2274   LearningRate 0.0250000   Epoch: 1   Global Step: 11000   Required: 5 hours
+Training: 2021-11-09 12:28:17,910-Speed 245.94 samples/sec   Loss 16.3130   LearningRate 0.0250000   Epoch: 1   Global Step: 11050   Required: 5 hours
+Training: 2021-11-09 12:28:43,989-Speed 245.43 samples/sec   Loss 16.2417   LearningRate 0.0250000   Epoch: 1   Global Step: 11100   Required: 5 hours
+Training: 2021-11-09 12:29:10,031-Speed 245.79 samples/sec   Loss 16.3187   LearningRate 0.0250000   Epoch: 1   Global Step: 11150   Required: 5 hours
+Training: 2021-11-09 12:29:36,083-Speed 245.70 samples/sec   Loss 16.1602   LearningRate 0.0250000   Epoch: 1   Global Step: 11200   Required: 5 hours
+Training: 2021-11-09 12:30:02,094-Speed 246.06 samples/sec   Loss 16.5680   LearningRate 0.0250000   Epoch: 1   Global Step: 11250   Required: 5 hours
+Training: 2021-11-09 12:30:28,104-Speed 246.08 samples/sec   Loss 16.0953   LearningRate 0.0250000   Epoch: 1   Global Step: 11300   Required: 5 hours
+Training: 2021-11-09 12:30:54,122-Speed 246.01 samples/sec   Loss 16.1404   LearningRate 0.0250000   Epoch: 1   Global Step: 11350   Required: 5 hours
+Training: 2021-11-09 12:31:20,112-Speed 246.29 samples/sec   Loss 16.1953   LearningRate 0.0250000   Epoch: 1   Global Step: 11400   Required: 5 hours
+Training: 2021-11-09 12:31:46,165-Speed 245.67 samples/sec   Loss 16.2174   LearningRate 0.0250000   Epoch: 1   Global Step: 11450   Required: 5 hours
+Training: 2021-11-09 12:32:12,221-Speed 245.66 samples/sec   Loss 16.2080   LearningRate 0.0250000   Epoch: 1   Global Step: 11500   Required: 5 hours
+Training: 2021-11-09 12:32:38,287-Speed 245.56 samples/sec   Loss 16.2779   LearningRate 0.0250000   Epoch: 1   Global Step: 11550   Required: 5 hours
+Training: 2021-11-09 12:33:04,323-Speed 245.85 samples/sec   Loss 16.0546   LearningRate 0.0250000   Epoch: 1   Global Step: 11600   Required: 5 hours
+Training: 2021-11-09 12:33:30,296-Speed 246.44 samples/sec   Loss 16.2857   LearningRate 0.0250000   Epoch: 1   Global Step: 11650   Required: 5 hours
+Training: 2021-11-09 12:33:56,310-Speed 246.04 samples/sec   Loss 16.0235   LearningRate 0.0250000   Epoch: 1   Global Step: 11700   Required: 5 hours
+Training: 2021-11-09 12:34:22,333-Speed 245.96 samples/sec   Loss 16.3712   LearningRate 0.0250000   Epoch: 1   Global Step: 11750   Required: 5 hours
+Training: 2021-11-09 12:34:48,325-Speed 246.25 samples/sec   Loss 16.1011   LearningRate 0.0250000   Epoch: 1   Global Step: 11800   Required: 5 hours
+Training: 2021-11-09 12:35:14,325-Speed 246.18 samples/sec   Loss 15.9800   LearningRate 0.0250000   Epoch: 1   Global Step: 11850   Required: 5 hours
+Training: 2021-11-09 12:35:40,370-Speed 245.76 samples/sec   Loss 16.2492   LearningRate 0.0250000   Epoch: 1   Global Step: 11900   Required: 5 hours
+Training: 2021-11-09 12:36:06,437-Speed 245.55 samples/sec   Loss 16.3250   LearningRate 0.0250000   Epoch: 1   Global Step: 11950   Required: 5 hours
+Training: 2021-11-09 12:36:32,509-Speed 245.49 samples/sec   Loss 16.2296   LearningRate 0.0250000   Epoch: 1   Global Step: 12000   Required: 5 hours
+Training: 2021-11-09 12:38:02,588-[agedb_30][12000]XNorm: 15.094084
+Training: 2021-11-09 12:38:02,589-[agedb_30][12000]Accuracy-Flip: 0.71517+-0.02546
+Training: 2021-11-09 12:38:02,589-[agedb_30][12000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 12:41:45,422-[dev_00][12000]XNorm: 18.021296
+Training: 2021-11-09 12:41:45,422-[dev_00][12000]Accuracy-Flip: 0.52407+-0.03757
+Training: 2021-11-09 12:41:45,422-[dev_00][12000]Accuracy-Highest: 0.52700
+Training: 2021-11-09 12:43:23,727-[dev_04][12000]XNorm: 18.096626
+Training: 2021-11-09 12:43:23,728-[dev_04][12000]Accuracy-Flip: 0.49771+-0.00850
+Training: 2021-11-09 12:43:23,728-[dev_04][12000]Accuracy-Highest: 0.50322
+Training: 2021-11-09 12:43:50,274-Speed 14.62 samples/sec   Loss 16.0221   LearningRate 0.0250000   Epoch: 1   Global Step: 12050   Required: 5 hours
+Training: 2021-11-09 12:44:16,830-Speed 241.04 samples/sec   Loss 16.2463   LearningRate 0.0250000   Epoch: 1   Global Step: 12100   Required: 5 hours
+Training: 2021-11-09 12:44:43,244-Speed 242.32 samples/sec   Loss 15.9915   LearningRate 0.0250000   Epoch: 1   Global Step: 12150   Required: 5 hours
+Training: 2021-11-09 12:45:09,643-Speed 242.47 samples/sec   Loss 16.6473   LearningRate 0.0250000   Epoch: 1   Global Step: 12200   Required: 5 hours
+Training: 2021-11-09 12:45:36,165-Speed 241.35 samples/sec   Loss 16.3276   LearningRate 0.0250000   Epoch: 1   Global Step: 12250   Required: 5 hours
+Training: 2021-11-09 12:46:02,701-Speed 241.21 samples/sec   Loss 16.1088   LearningRate 0.0250000   Epoch: 1   Global Step: 12300   Required: 5 hours
+Training: 2021-11-09 12:46:29,253-Speed 241.06 samples/sec   Loss 16.5231   LearningRate 0.0250000   Epoch: 1   Global Step: 12350   Required: 5 hours
+Training: 2021-11-09 12:46:53,935-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
+Training: 2021-11-09 12:46:58,167-Speed 221.37 samples/sec   Loss 16.0261   LearningRate 0.0250000   Epoch: 2   Global Step: 12400   Required: 5 hours
+Training: 2021-11-09 12:47:24,595-Speed 242.19 samples/sec   Loss 15.3335   LearningRate 0.0250000   Epoch: 2   Global Step: 12450   Required: 5 hours
+Training: 2021-11-09 12:47:51,017-Speed 242.26 samples/sec   Loss 15.4612   LearningRate 0.0250000   Epoch: 2   Global Step: 12500   Required: 5 hours
+Training: 2021-11-09 12:48:17,361-Speed 242.96 samples/sec   Loss 15.3346   LearningRate 0.0250000   Epoch: 2   Global Step: 12550   Required: 5 hours
+Training: 2021-11-09 12:48:43,651-Speed 243.48 samples/sec   Loss 15.5869   LearningRate 0.0250000   Epoch: 2   Global Step: 12600   Required: 5 hours
+Training: 2021-11-09 12:49:09,886-Speed 243.98 samples/sec   Loss 15.6540   LearningRate 0.0250000   Epoch: 2   Global Step: 12650   Required: 5 hours
+Training: 2021-11-09 12:49:36,045-Speed 244.69 samples/sec   Loss 15.2609   LearningRate 0.0250000   Epoch: 2   Global Step: 12700   Required: 5 hours
+Training: 2021-11-09 12:50:02,228-Speed 244.45 samples/sec   Loss 15.4424   LearningRate 0.0250000   Epoch: 2   Global Step: 12750   Required: 5 hours
+Training: 2021-11-09 12:50:28,355-Speed 244.99 samples/sec   Loss 15.5914   LearningRate 0.0250000   Epoch: 2   Global Step: 12800   Required: 5 hours
+Training: 2021-11-09 12:50:54,494-Speed 244.88 samples/sec   Loss 15.4217   LearningRate 0.0250000   Epoch: 2   Global Step: 12850   Required: 5 hours
+Training: 2021-11-09 12:51:20,618-Speed 245.02 samples/sec   Loss 15.4849   LearningRate 0.0250000   Epoch: 2   Global Step: 12900   Required: 5 hours
+Training: 2021-11-09 12:51:46,694-Speed 245.45 samples/sec   Loss 15.5902   LearningRate 0.0250000   Epoch: 2   Global Step: 12950   Required: 5 hours
+Training: 2021-11-09 12:52:12,701-Speed 246.12 samples/sec   Loss 15.6078   LearningRate 0.0250000   Epoch: 2   Global Step: 13000   Required: 5 hours
+Training: 2021-11-09 12:52:38,683-Speed 246.36 samples/sec   Loss 15.9558   LearningRate 0.0250000   Epoch: 2   Global Step: 13050   Required: 5 hours
+Training: 2021-11-09 12:53:04,716-Speed 245.88 samples/sec   Loss 15.8698   LearningRate 0.0250000   Epoch: 2   Global Step: 13100   Required: 5 hours
+Training: 2021-11-09 12:53:30,798-Speed 245.41 samples/sec   Loss 15.5093   LearningRate 0.0250000   Epoch: 2   Global Step: 13150   Required: 5 hours
+Training: 2021-11-09 12:53:56,872-Speed 245.48 samples/sec   Loss 15.9200   LearningRate 0.0250000   Epoch: 2   Global Step: 13200   Required: 5 hours
+Training: 2021-11-09 12:54:22,950-Speed 245.45 samples/sec   Loss 15.7839   LearningRate 0.0250000   Epoch: 2   Global Step: 13250   Required: 5 hours
+Training: 2021-11-09 12:54:48,999-Speed 245.72 samples/sec   Loss 15.8683   LearningRate 0.0250000   Epoch: 2   Global Step: 13300   Required: 5 hours
+Training: 2021-11-09 12:55:15,065-Speed 245.56 samples/sec   Loss 15.4590   LearningRate 0.0250000   Epoch: 2   Global Step: 13350   Required: 5 hours
+Training: 2021-11-09 12:55:41,102-Speed 245.84 samples/sec   Loss 15.6290   LearningRate 0.0250000   Epoch: 2   Global Step: 13400   Required: 5 hours
+Training: 2021-11-09 12:56:07,173-Speed 245.49 samples/sec   Loss 15.4422   LearningRate 0.0250000   Epoch: 2   Global Step: 13450   Required: 5 hours
+Training: 2021-11-09 12:56:33,231-Speed 245.62 samples/sec   Loss 15.7429   LearningRate 0.0250000   Epoch: 2   Global Step: 13500   Required: 5 hours
+Training: 2021-11-09 12:56:59,232-Speed 246.18 samples/sec   Loss 15.9130   LearningRate 0.0250000   Epoch: 2   Global Step: 13550   Required: 5 hours
+Training: 2021-11-09 12:57:25,219-Speed 246.31 samples/sec   Loss 15.8617   LearningRate 0.0250000   Epoch: 2   Global Step: 13600   Required: 5 hours
+Training: 2021-11-09 12:57:51,255-Speed 245.84 samples/sec   Loss 15.9196   LearningRate 0.0250000   Epoch: 2   Global Step: 13650   Required: 5 hours
+Training: 2021-11-09 12:58:17,249-Speed 246.25 samples/sec   Loss 15.6295   LearningRate 0.0250000   Epoch: 2   Global Step: 13700   Required: 5 hours
+Training: 2021-11-09 12:58:43,252-Speed 246.16 samples/sec   Loss 15.5827   LearningRate 0.0250000   Epoch: 2   Global Step: 13750   Required: 5 hours
+Training: 2021-11-09 12:59:09,220-Speed 246.49 samples/sec   Loss 15.6875   LearningRate 0.0250000   Epoch: 2   Global Step: 13800   Required: 5 hours
+Training: 2021-11-09 12:59:35,223-Speed 246.16 samples/sec   Loss 15.7461   LearningRate 0.0250000   Epoch: 2   Global Step: 13850   Required: 5 hours
+Training: 2021-11-09 13:00:01,247-Speed 245.94 samples/sec   Loss 15.7043   LearningRate 0.0250000   Epoch: 2   Global Step: 13900   Required: 5 hours
+Training: 2021-11-09 13:00:27,269-Speed 245.98 samples/sec   Loss 15.8972   LearningRate 0.0250000   Epoch: 2   Global Step: 13950   Required: 5 hours
+Training: 2021-11-09 13:00:53,251-Speed 246.36 samples/sec   Loss 15.6860   LearningRate 0.0250000   Epoch: 2   Global Step: 14000   Required: 5 hours
+Training: 2021-11-09 13:02:23,200-[agedb_30][14000]XNorm: 14.588329
+Training: 2021-11-09 13:02:23,200-[agedb_30][14000]Accuracy-Flip: 0.71783+-0.02025
+Training: 2021-11-09 13:02:23,200-[agedb_30][14000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 13:06:05,885-[dev_00][14000]XNorm: 16.936410
+Training: 2021-11-09 13:06:05,885-[dev_00][14000]Accuracy-Flip: 0.53020+-0.04689
+Training: 2021-11-09 13:06:05,885-[dev_00][14000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 13:07:44,111-[dev_04][14000]XNorm: 16.930207
+Training: 2021-11-09 13:07:44,111-[dev_04][14000]Accuracy-Flip: 0.49802+-0.01826
+Training: 2021-11-09 13:07:44,111-[dev_04][14000]Accuracy-Highest: 0.50322
+Training: 2021-11-09 13:08:10,634-Speed 14.63 samples/sec   Loss 15.9360   LearningRate 0.0250000   Epoch: 2   Global Step: 14050   Required: 5 hours
+Training: 2021-11-09 13:08:37,139-Speed 241.48 samples/sec   Loss 15.9464   LearningRate 0.0250000   Epoch: 2   Global Step: 14100   Required: 5 hours
+Training: 2021-11-09 13:09:03,551-Speed 242.33 samples/sec   Loss 15.8239   LearningRate 0.0250000   Epoch: 2   Global Step: 14150   Required: 5 hours
+Training: 2021-11-09 13:09:29,925-Speed 242.69 samples/sec   Loss 15.7510   LearningRate 0.0250000   Epoch: 2   Global Step: 14200   Required: 5 hours
+Training: 2021-11-09 13:09:56,345-Speed 242.27 samples/sec   Loss 15.8922   LearningRate 0.0250000   Epoch: 2   Global Step: 14250   Required: 5 hours
+Training: 2021-11-09 13:10:22,790-Speed 242.04 samples/sec   Loss 15.8294   LearningRate 0.0250000   Epoch: 2   Global Step: 14300   Required: 5 hours
+Training: 2021-11-09 13:10:49,262-Speed 241.80 samples/sec   Loss 15.7752   LearningRate 0.0250000   Epoch: 2   Global Step: 14350   Required: 5 hours
+Training: 2021-11-09 13:11:15,782-Speed 241.36 samples/sec   Loss 15.8803   LearningRate 0.0250000   Epoch: 2   Global Step: 14400   Required: 5 hours
+Training: 2021-11-09 13:11:42,261-Speed 241.72 samples/sec   Loss 15.9211   LearningRate 0.0250000   Epoch: 2   Global Step: 14450   Required: 5 hours
+Training: 2021-11-09 13:12:08,666-Speed 242.41 samples/sec   Loss 15.8328   LearningRate 0.0250000   Epoch: 2   Global Step: 14500   Required: 5 hours
+Training: 2021-11-09 13:12:35,020-Speed 242.86 samples/sec   Loss 15.9214   LearningRate 0.0250000   Epoch: 2   Global Step: 14550   Required: 5 hours
+Training: 2021-11-09 13:13:01,326-Speed 243.32 samples/sec   Loss 15.9026   LearningRate 0.0250000   Epoch: 2   Global Step: 14600   Required: 5 hours
+Training: 2021-11-09 13:13:27,584-Speed 243.76 samples/sec   Loss 15.9412   LearningRate 0.0250000   Epoch: 2   Global Step: 14650   Required: 5 hours
+Training: 2021-11-09 13:13:53,777-Speed 244.37 samples/sec   Loss 15.5889   LearningRate 0.0250000   Epoch: 2   Global Step: 14700   Required: 5 hours
+Training: 2021-11-09 13:14:19,914-Speed 244.89 samples/sec   Loss 15.7227   LearningRate 0.0250000   Epoch: 2   Global Step: 14750   Required: 4 hours
+Training: 2021-11-09 13:14:46,051-Speed 244.87 samples/sec   Loss 15.7905   LearningRate 0.0250000   Epoch: 2   Global Step: 14800   Required: 4 hours
+Training: 2021-11-09 13:15:12,157-Speed 245.18 samples/sec   Loss 15.9192   LearningRate 0.0250000   Epoch: 2   Global Step: 14850   Required: 4 hours
+Training: 2021-11-09 13:15:38,213-Speed 245.65 samples/sec   Loss 15.9681   LearningRate 0.0250000   Epoch: 2   Global Step: 14900   Required: 4 hours
+Training: 2021-11-09 13:16:04,307-Speed 245.30 samples/sec   Loss 15.8117   LearningRate 0.0250000   Epoch: 2   Global Step: 14950   Required: 4 hours
+Training: 2021-11-09 13:16:30,346-Speed 245.81 samples/sec   Loss 15.9108   LearningRate 0.0250000   Epoch: 2   Global Step: 15000   Required: 4 hours
+Training: 2021-11-09 13:16:56,386-Speed 245.81 samples/sec   Loss 15.8009   LearningRate 0.0250000   Epoch: 2   Global Step: 15050   Required: 4 hours
+Training: 2021-11-09 13:17:22,456-Speed 245.53 samples/sec   Loss 15.9237   LearningRate 0.0250000   Epoch: 2   Global Step: 15100   Required: 4 hours
+Training: 2021-11-09 13:17:48,483-Speed 245.93 samples/sec   Loss 15.7158   LearningRate 0.0250000   Epoch: 2   Global Step: 15150   Required: 4 hours
+Training: 2021-11-09 13:18:14,510-Speed 245.93 samples/sec   Loss 15.8856   LearningRate 0.0250000   Epoch: 2   Global Step: 15200   Required: 4 hours
+Training: 2021-11-09 13:18:40,524-Speed 246.04 samples/sec   Loss 15.8493   LearningRate 0.0250000   Epoch: 2   Global Step: 15250   Required: 4 hours
+Training: 2021-11-09 13:19:06,547-Speed 245.96 samples/sec   Loss 15.8723   LearningRate 0.0250000   Epoch: 2   Global Step: 15300   Required: 4 hours
+Training: 2021-11-09 13:19:32,526-Speed 246.38 samples/sec   Loss 15.6867   LearningRate 0.0250000   Epoch: 2   Global Step: 15350   Required: 4 hours
+Training: 2021-11-09 13:19:58,508-Speed 246.35 samples/sec   Loss 15.9390   LearningRate 0.0250000   Epoch: 2   Global Step: 15400   Required: 4 hours
+Training: 2021-11-09 13:20:24,513-Speed 246.14 samples/sec   Loss 15.7904   LearningRate 0.0250000   Epoch: 2   Global Step: 15450   Required: 4 hours
+Training: 2021-11-09 13:20:50,530-Speed 246.02 samples/sec   Loss 15.9993   LearningRate 0.0250000   Epoch: 2   Global Step: 15500   Required: 4 hours
+Training: 2021-11-09 13:21:16,533-Speed 246.15 samples/sec   Loss 15.7481   LearningRate 0.0250000   Epoch: 2   Global Step: 15550   Required: 4 hours
+Training: 2021-11-09 13:21:42,567-Speed 245.86 samples/sec   Loss 15.5803   LearningRate 0.0250000   Epoch: 2   Global Step: 15600   Required: 4 hours
+Training: 2021-11-09 13:22:08,623-Speed 245.64 samples/sec   Loss 15.9335   LearningRate 0.0250000   Epoch: 2   Global Step: 15650   Required: 4 hours
+Training: 2021-11-09 13:22:34,570-Speed 246.69 samples/sec   Loss 15.7356   LearningRate 0.0250000   Epoch: 2   Global Step: 15700   Required: 4 hours
+Training: 2021-11-09 13:23:00,533-Speed 246.53 samples/sec   Loss 15.7538   LearningRate 0.0250000   Epoch: 2   Global Step: 15750   Required: 4 hours
+Training: 2021-11-09 13:23:26,502-Speed 246.48 samples/sec   Loss 15.9557   LearningRate 0.0250000   Epoch: 2   Global Step: 15800   Required: 4 hours
+Training: 2021-11-09 13:23:52,481-Speed 246.38 samples/sec   Loss 15.8273   LearningRate 0.0250000   Epoch: 2   Global Step: 15850   Required: 4 hours
+Training: 2021-11-09 13:24:18,553-Speed 245.51 samples/sec   Loss 15.7657   LearningRate 0.0250000   Epoch: 2   Global Step: 15900   Required: 4 hours
+Training: 2021-11-09 13:24:44,590-Speed 245.81 samples/sec   Loss 15.7904   LearningRate 0.0250000   Epoch: 2   Global Step: 15950   Required: 4 hours
+Training: 2021-11-09 13:25:10,613-Speed 245.97 samples/sec   Loss 15.5862   LearningRate 0.0250000   Epoch: 2   Global Step: 16000   Required: 4 hours
+Training: 2021-11-09 13:26:40,666-[agedb_30][16000]XNorm: 15.822520
+Training: 2021-11-09 13:26:40,666-[agedb_30][16000]Accuracy-Flip: 0.71533+-0.02215
+Training: 2021-11-09 13:26:40,666-[agedb_30][16000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 13:30:23,782-[dev_00][16000]XNorm: 18.008084
+Training: 2021-11-09 13:30:23,783-[dev_00][16000]Accuracy-Flip: 0.52133+-0.04057
+Training: 2021-11-09 13:30:23,783-[dev_00][16000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 13:32:02,141-[dev_04][16000]XNorm: 18.057767
+Training: 2021-11-09 13:32:02,141-[dev_04][16000]Accuracy-Flip: 0.50657+-0.01672
+Training: 2021-11-09 13:32:02,141-[dev_04][16000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 13:32:28,668-Speed 14.61 samples/sec   Loss 15.8730   LearningRate 0.0250000   Epoch: 2   Global Step: 16050   Required: 4 hours
+Training: 2021-11-09 13:32:55,236-Speed 240.92 samples/sec   Loss 15.7705   LearningRate 0.0250000   Epoch: 2   Global Step: 16100   Required: 4 hours
+Training: 2021-11-09 13:33:21,636-Speed 242.46 samples/sec   Loss 15.8169   LearningRate 0.0250000   Epoch: 2   Global Step: 16150   Required: 4 hours
+Training: 2021-11-09 13:33:47,994-Speed 242.84 samples/sec   Loss 15.8319   LearningRate 0.0250000   Epoch: 2   Global Step: 16200   Required: 4 hours
+Training: 2021-11-09 13:34:14,382-Speed 242.56 samples/sec   Loss 15.9003   LearningRate 0.0250000   Epoch: 2   Global Step: 16250   Required: 4 hours
+Training: 2021-11-09 13:34:40,857-Speed 241.77 samples/sec   Loss 15.8959   LearningRate 0.0250000   Epoch: 2   Global Step: 16300   Required: 4 hours
+Training: 2021-11-09 13:35:07,359-Speed 241.53 samples/sec   Loss 15.8806   LearningRate 0.0250000   Epoch: 2   Global Step: 16350   Required: 4 hours
+Training: 2021-11-09 13:35:33,854-Speed 241.57 samples/sec   Loss 16.0931   LearningRate 0.0250000   Epoch: 2   Global Step: 16400   Required: 4 hours
+Training: 2021-11-09 13:36:00,347-Speed 241.61 samples/sec   Loss 15.7715   LearningRate 0.0250000   Epoch: 2   Global Step: 16450   Required: 4 hours
+Training: 2021-11-09 13:36:26,726-Speed 242.65 samples/sec   Loss 15.4351   LearningRate 0.0250000   Epoch: 2   Global Step: 16500   Required: 4 hours
+Training: 2021-11-09 13:36:53,058-Speed 243.07 samples/sec   Loss 15.9285   LearningRate 0.0250000   Epoch: 2   Global Step: 16550   Required: 4 hours
+Training: 2021-11-09 13:37:19,353-Speed 243.43 samples/sec   Loss 15.7865   LearningRate 0.0250000   Epoch: 2   Global Step: 16600   Required: 4 hours
+Training: 2021-11-09 13:37:45,549-Speed 244.34 samples/sec   Loss 15.7076   LearningRate 0.0250000   Epoch: 2   Global Step: 16650   Required: 4 hours
+Training: 2021-11-09 13:38:11,717-Speed 244.60 samples/sec   Loss 15.9335   LearningRate 0.0250000   Epoch: 2   Global Step: 16700   Required: 4 hours
+Training: 2021-11-09 13:38:37,892-Speed 244.54 samples/sec   Loss 15.6735   LearningRate 0.0250000   Epoch: 2   Global Step: 16750   Required: 4 hours
+Training: 2021-11-09 13:39:04,016-Speed 245.01 samples/sec   Loss 15.9383   LearningRate 0.0250000   Epoch: 2   Global Step: 16800   Required: 4 hours
+Training: 2021-11-09 13:39:30,096-Speed 245.43 samples/sec   Loss 15.6712   LearningRate 0.0250000   Epoch: 2   Global Step: 16850   Required: 4 hours
+Training: 2021-11-09 13:39:56,175-Speed 245.45 samples/sec   Loss 15.9827   LearningRate 0.0250000   Epoch: 2   Global Step: 16900   Required: 4 hours
+Training: 2021-11-09 13:40:22,194-Speed 246.00 samples/sec   Loss 15.9306   LearningRate 0.0250000   Epoch: 2   Global Step: 16950   Required: 4 hours
+Training: 2021-11-09 13:40:48,180-Speed 246.32 samples/sec   Loss 15.7813   LearningRate 0.0250000   Epoch: 2   Global Step: 17000   Required: 4 hours
+Training: 2021-11-09 13:41:14,148-Speed 246.48 samples/sec   Loss 15.8950   LearningRate 0.0250000   Epoch: 2   Global Step: 17050   Required: 4 hours
+Training: 2021-11-09 13:41:40,123-Speed 246.43 samples/sec   Loss 15.7538   LearningRate 0.0250000   Epoch: 2   Global Step: 17100   Required: 4 hours
+Training: 2021-11-09 13:42:06,162-Speed 245.80 samples/sec   Loss 15.6523   LearningRate 0.0250000   Epoch: 2   Global Step: 17150   Required: 4 hours
+Training: 2021-11-09 13:42:32,155-Speed 246.26 samples/sec   Loss 15.6411   LearningRate 0.0250000   Epoch: 2   Global Step: 17200   Required: 4 hours
+Training: 2021-11-09 13:42:58,164-Speed 246.10 samples/sec   Loss 15.7906   LearningRate 0.0250000   Epoch: 2   Global Step: 17250   Required: 4 hours
+Training: 2021-11-09 13:43:24,173-Speed 246.08 samples/sec   Loss 15.7913   LearningRate 0.0250000   Epoch: 2   Global Step: 17300   Required: 4 hours
+Training: 2021-11-09 13:43:50,210-Speed 245.82 samples/sec   Loss 15.8042   LearningRate 0.0250000   Epoch: 2   Global Step: 17350   Required: 4 hours
+Training: 2021-11-09 13:44:16,205-Speed 246.24 samples/sec   Loss 15.8719   LearningRate 0.0250000   Epoch: 2   Global Step: 17400   Required: 4 hours
+Training: 2021-11-09 13:44:42,232-Speed 245.93 samples/sec   Loss 15.8512   LearningRate 0.0250000   Epoch: 2   Global Step: 17450   Required: 4 hours
+Training: 2021-11-09 13:45:08,247-Speed 246.05 samples/sec   Loss 15.8803   LearningRate 0.0250000   Epoch: 2   Global Step: 17500   Required: 4 hours
+Training: 2021-11-09 13:45:34,238-Speed 246.26 samples/sec   Loss 15.6172   LearningRate 0.0250000   Epoch: 2   Global Step: 17550   Required: 4 hours
+Training: 2021-11-09 13:46:00,243-Speed 246.12 samples/sec   Loss 15.7557   LearningRate 0.0250000   Epoch: 2   Global Step: 17600   Required: 4 hours
+Training: 2021-11-09 13:46:26,253-Speed 246.09 samples/sec   Loss 15.7156   LearningRate 0.0250000   Epoch: 2   Global Step: 17650   Required: 4 hours
+Training: 2021-11-09 13:46:52,223-Speed 246.45 samples/sec   Loss 15.8114   LearningRate 0.0250000   Epoch: 2   Global Step: 17700   Required: 4 hours
+Training: 2021-11-09 13:47:18,189-Speed 246.51 samples/sec   Loss 15.6788   LearningRate 0.0250000   Epoch: 2   Global Step: 17750   Required: 4 hours
+Training: 2021-11-09 13:47:44,122-Speed 246.80 samples/sec   Loss 15.7234   LearningRate 0.0250000   Epoch: 2   Global Step: 17800   Required: 4 hours
+Training: 2021-11-09 13:48:10,093-Speed 246.45 samples/sec   Loss 15.8281   LearningRate 0.0250000   Epoch: 2   Global Step: 17850   Required: 4 hours
+Training: 2021-11-09 13:48:36,105-Speed 246.07 samples/sec   Loss 15.7962   LearningRate 0.0250000   Epoch: 2   Global Step: 17900   Required: 4 hours
+Training: 2021-11-09 13:49:02,111-Speed 246.13 samples/sec   Loss 16.0072   LearningRate 0.0250000   Epoch: 2   Global Step: 17950   Required: 4 hours
+Training: 2021-11-09 13:49:28,085-Speed 246.44 samples/sec   Loss 15.4584   LearningRate 0.0250000   Epoch: 2   Global Step: 18000   Required: 4 hours
+Training: 2021-11-09 13:50:57,990-[agedb_30][18000]XNorm: 15.366074
+Training: 2021-11-09 13:50:57,990-[agedb_30][18000]Accuracy-Flip: 0.72683+-0.01697
+Training: 2021-11-09 13:50:57,990-[agedb_30][18000]Accuracy-Highest: 0.73267
+Training: 2021-11-09 13:54:40,842-[dev_00][18000]XNorm: 18.093282
+Training: 2021-11-09 13:54:40,842-[dev_00][18000]Accuracy-Flip: 0.51913+-0.03851
+Training: 2021-11-09 13:54:40,842-[dev_00][18000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 13:56:19,109-[dev_04][18000]XNorm: 18.132038
+Training: 2021-11-09 13:56:19,109-[dev_04][18000]Accuracy-Flip: 0.50184+-0.01567
+Training: 2021-11-09 13:56:19,109-[dev_04][18000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 13:56:45,558-Speed 14.63 samples/sec   Loss 15.7066   LearningRate 0.0250000   Epoch: 2   Global Step: 18050   Required: 4 hours
+Training: 2021-11-09 13:57:12,155-Speed 240.63 samples/sec   Loss 15.6682   LearningRate 0.0250000   Epoch: 2   Global Step: 18100   Required: 4 hours
+Training: 2021-11-09 13:57:38,567-Speed 242.33 samples/sec   Loss 15.5472   LearningRate 0.0250000   Epoch: 2   Global Step: 18150   Required: 4 hours
+Training: 2021-11-09 13:58:04,962-Speed 242.51 samples/sec   Loss 15.8760   LearningRate 0.0250000   Epoch: 2   Global Step: 18200   Required: 4 hours
+Training: 2021-11-09 13:58:31,428-Speed 241.85 samples/sec   Loss 15.5461   LearningRate 0.0250000   Epoch: 2   Global Step: 18250   Required: 4 hours
+Training: 2021-11-09 13:58:57,906-Speed 241.74 samples/sec   Loss 15.6604   LearningRate 0.0250000   Epoch: 2   Global Step: 18300   Required: 4 hours
+Training: 2021-11-09 13:59:24,403-Speed 241.57 samples/sec   Loss 15.6068   LearningRate 0.0250000   Epoch: 2   Global Step: 18350   Required: 4 hours
+Training: 2021-11-09 13:59:50,873-Speed 241.80 samples/sec   Loss 15.5372   LearningRate 0.0250000   Epoch: 2   Global Step: 18400   Required: 4 hours
+Training: 2021-11-09 14:00:17,331-Speed 241.92 samples/sec   Loss 15.5678   LearningRate 0.0250000   Epoch: 2   Global Step: 18450   Required: 4 hours
+Training: 2021-11-09 14:00:43,725-Speed 242.51 samples/sec   Loss 15.6486   LearningRate 0.0250000   Epoch: 2   Global Step: 18500   Required: 4 hours
+Training: 2021-11-09 14:01:10,082-Speed 242.84 samples/sec   Loss 15.8123   LearningRate 0.0250000   Epoch: 2   Global Step: 18550   Required: 4 hours
+Training: 2021-11-09 14:01:33,035-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
+Training: 2021-11-09 14:01:38,786-Speed 223.00 samples/sec   Loss 15.6819   LearningRate 0.0025000   Epoch: 3   Global Step: 18600   Required: 4 hours
+Training: 2021-11-09 14:02:04,933-Speed 244.80 samples/sec   Loss 14.1550   LearningRate 0.0025000   Epoch: 3   Global Step: 18650   Required: 4 hours
+Training: 2021-11-09 14:02:31,151-Speed 244.12 samples/sec   Loss 13.6332   LearningRate 0.0025000   Epoch: 3   Global Step: 18700   Required: 4 hours
+Training: 2021-11-09 14:02:57,256-Speed 245.20 samples/sec   Loss 13.5914   LearningRate 0.0025000   Epoch: 3   Global Step: 18750   Required: 4 hours
+Training: 2021-11-09 14:03:23,283-Speed 245.93 samples/sec   Loss 13.2501   LearningRate 0.0025000   Epoch: 3   Global Step: 18800   Required: 4 hours
+Training: 2021-11-09 14:03:49,336-Speed 245.68 samples/sec   Loss 12.9257   LearningRate 0.0025000   Epoch: 3   Global Step: 18850   Required: 4 hours
+Training: 2021-11-09 14:04:15,373-Speed 245.83 samples/sec   Loss 13.0784   LearningRate 0.0025000   Epoch: 3   Global Step: 18900   Required: 4 hours
+Training: 2021-11-09 14:04:41,366-Speed 246.25 samples/sec   Loss 12.8927   LearningRate 0.0025000   Epoch: 3   Global Step: 18950   Required: 4 hours
+Training: 2021-11-09 14:05:07,391-Speed 245.95 samples/sec   Loss 12.7939   LearningRate 0.0025000   Epoch: 3   Global Step: 19000   Required: 4 hours
+Training: 2021-11-09 14:05:33,378-Speed 246.30 samples/sec   Loss 12.8895   LearningRate 0.0025000   Epoch: 3   Global Step: 19050   Required: 4 hours
+Training: 2021-11-09 14:05:59,404-Speed 245.94 samples/sec   Loss 12.7095   LearningRate 0.0025000   Epoch: 3   Global Step: 19100   Required: 4 hours
+Training: 2021-11-09 14:06:25,428-Speed 245.96 samples/sec   Loss 12.7826   LearningRate 0.0025000   Epoch: 3   Global Step: 19150   Required: 4 hours
+Training: 2021-11-09 14:06:51,432-Speed 246.14 samples/sec   Loss 12.6470   LearningRate 0.0025000   Epoch: 3   Global Step: 19200   Required: 4 hours
+Training: 2021-11-09 14:07:17,467-Speed 245.86 samples/sec   Loss 12.8241   LearningRate 0.0025000   Epoch: 3   Global Step: 19250   Required: 4 hours
+Training: 2021-11-09 14:07:43,488-Speed 245.99 samples/sec   Loss 12.4375   LearningRate 0.0025000   Epoch: 3   Global Step: 19300   Required: 4 hours
+Training: 2021-11-09 14:08:09,515-Speed 245.93 samples/sec   Loss 12.3695   LearningRate 0.0025000   Epoch: 3   Global Step: 19350   Required: 4 hours
+Training: 2021-11-09 14:08:35,472-Speed 246.58 samples/sec   Loss 12.4595   LearningRate 0.0025000   Epoch: 3   Global Step: 19400   Required: 4 hours
+Training: 2021-11-09 14:09:01,456-Speed 246.34 samples/sec   Loss 12.3305   LearningRate 0.0025000   Epoch: 3   Global Step: 19450   Required: 4 hours
+Training: 2021-11-09 14:09:27,446-Speed 246.27 samples/sec   Loss 12.4115   LearningRate 0.0025000   Epoch: 3   Global Step: 19500   Required: 4 hours
+Training: 2021-11-09 14:09:53,404-Speed 246.59 samples/sec   Loss 12.1712   LearningRate 0.0025000   Epoch: 3   Global Step: 19550   Required: 3 hours
+Training: 2021-11-09 14:10:19,369-Speed 246.52 samples/sec   Loss 12.1688   LearningRate 0.0025000   Epoch: 3   Global Step: 19600   Required: 3 hours
+Training: 2021-11-09 14:10:45,415-Speed 245.76 samples/sec   Loss 11.9672   LearningRate 0.0025000   Epoch: 3   Global Step: 19650   Required: 3 hours
+Training: 2021-11-09 14:11:11,442-Speed 245.93 samples/sec   Loss 12.4046   LearningRate 0.0025000   Epoch: 3   Global Step: 19700   Required: 3 hours
+Training: 2021-11-09 14:11:37,435-Speed 246.23 samples/sec   Loss 12.0431   LearningRate 0.0025000   Epoch: 3   Global Step: 19750   Required: 3 hours
+Training: 2021-11-09 14:12:03,431-Speed 246.21 samples/sec   Loss 12.1400   LearningRate 0.0025000   Epoch: 3   Global Step: 19800   Required: 3 hours
+Training: 2021-11-09 14:12:29,364-Speed 246.82 samples/sec   Loss 11.8162   LearningRate 0.0025000   Epoch: 3   Global Step: 19850   Required: 3 hours
+Training: 2021-11-09 14:12:55,324-Speed 246.55 samples/sec   Loss 11.9056   LearningRate 0.0025000   Epoch: 3   Global Step: 19900   Required: 3 hours
+Training: 2021-11-09 14:13:21,280-Speed 246.59 samples/sec   Loss 11.9379   LearningRate 0.0025000   Epoch: 3   Global Step: 19950   Required: 3 hours
+Training: 2021-11-09 14:13:47,303-Speed 245.97 samples/sec   Loss 11.8664   LearningRate 0.0025000   Epoch: 3   Global Step: 20000   Required: 3 hours
+Training: 2021-11-09 14:15:17,239-[agedb_30][20000]XNorm: 15.228758
+Training: 2021-11-09 14:15:17,239-[agedb_30][20000]Accuracy-Flip: 0.74117+-0.01934
+Training: 2021-11-09 14:15:17,239-[agedb_30][20000]Accuracy-Highest: 0.74117
+Training: 2021-11-09 14:18:59,579-[dev_00][20000]XNorm: 17.453223
+Training: 2021-11-09 14:18:59,580-[dev_00][20000]Accuracy-Flip: 0.51740+-0.04051
+Training: 2021-11-09 14:18:59,580-[dev_00][20000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 14:20:37,816-[dev_04][20000]XNorm: 17.500436
+Training: 2021-11-09 14:20:37,816-[dev_04][20000]Accuracy-Flip: 0.50490+-0.02450
+Training: 2021-11-09 14:20:37,816-[dev_04][20000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 14:21:04,342-Speed 14.64 samples/sec   Loss 11.7033   LearningRate 0.0025000   Epoch: 3   Global Step: 20050   Required: 3 hours
+Training: 2021-11-09 14:21:30,931-Speed 240.74 samples/sec   Loss 11.6789   LearningRate 0.0025000   Epoch: 3   Global Step: 20100   Required: 3 hours
+Training: 2021-11-09 14:21:57,286-Speed 242.85 samples/sec   Loss 11.8868   LearningRate 0.0025000   Epoch: 3   Global Step: 20150   Required: 3 hours
+Training: 2021-11-09 14:22:23,659-Speed 242.71 samples/sec   Loss 11.5072   LearningRate 0.0025000   Epoch: 3   Global Step: 20200   Required: 3 hours
+Training: 2021-11-09 14:22:50,158-Speed 241.55 samples/sec   Loss 11.5090   LearningRate 0.0025000   Epoch: 3   Global Step: 20250   Required: 3 hours
+Training: 2021-11-09 14:23:16,712-Speed 241.06 samples/sec   Loss 11.6494   LearningRate 0.0025000   Epoch: 3   Global Step: 20300   Required: 3 hours
+Training: 2021-11-09 14:23:43,245-Speed 241.24 samples/sec   Loss 11.6436   LearningRate 0.0025000   Epoch: 3   Global Step: 20350   Required: 3 hours
+Training: 2021-11-09 14:24:09,730-Speed 241.68 samples/sec   Loss 11.4780   LearningRate 0.0025000   Epoch: 3   Global Step: 20400   Required: 3 hours
+Training: 2021-11-09 14:24:36,180-Speed 242.00 samples/sec   Loss 11.4766   LearningRate 0.0025000   Epoch: 3   Global Step: 20450   Required: 3 hours
+Training: 2021-11-09 14:25:02,570-Speed 242.55 samples/sec   Loss 11.3900   LearningRate 0.0025000   Epoch: 3   Global Step: 20500   Required: 3 hours
+Training: 2021-11-09 14:25:28,894-Speed 243.13 samples/sec   Loss 11.5765   LearningRate 0.0025000   Epoch: 3   Global Step: 20550   Required: 3 hours
+Training: 2021-11-09 14:25:55,172-Speed 243.58 samples/sec   Loss 11.4936   LearningRate 0.0025000   Epoch: 3   Global Step: 20600   Required: 3 hours
+Training: 2021-11-09 14:26:21,398-Speed 244.06 samples/sec   Loss 11.5325   LearningRate 0.0025000   Epoch: 3   Global Step: 20650   Required: 3 hours
+Training: 2021-11-09 14:26:47,583-Speed 244.46 samples/sec   Loss 11.4802   LearningRate 0.0025000   Epoch: 3   Global Step: 20700   Required: 3 hours
+Training: 2021-11-09 14:27:13,770-Speed 244.43 samples/sec   Loss 11.3740   LearningRate 0.0025000   Epoch: 3   Global Step: 20750   Required: 3 hours
+Training: 2021-11-09 14:27:39,864-Speed 245.28 samples/sec   Loss 11.2806   LearningRate 0.0025000   Epoch: 3   Global Step: 20800   Required: 3 hours
+Training: 2021-11-09 14:28:05,926-Speed 245.60 samples/sec   Loss 11.3840   LearningRate 0.0025000   Epoch: 3   Global Step: 20850   Required: 3 hours
+Training: 2021-11-09 14:28:31,943-Speed 246.03 samples/sec   Loss 11.3901   LearningRate 0.0025000   Epoch: 3   Global Step: 20900   Required: 3 hours
+Training: 2021-11-09 14:28:57,992-Speed 245.71 samples/sec   Loss 11.3306   LearningRate 0.0025000   Epoch: 3   Global Step: 20950   Required: 3 hours
+Training: 2021-11-09 14:29:24,108-Speed 245.10 samples/sec   Loss 11.2625   LearningRate 0.0025000   Epoch: 3   Global Step: 21000   Required: 3 hours
+Training: 2021-11-09 14:29:50,241-Speed 244.93 samples/sec   Loss 11.2076   LearningRate 0.0025000   Epoch: 3   Global Step: 21050   Required: 3 hours
+Training: 2021-11-09 14:30:16,282-Speed 245.80 samples/sec   Loss 11.0484   LearningRate 0.0025000   Epoch: 3   Global Step: 21100   Required: 3 hours
+Training: 2021-11-09 14:30:42,344-Speed 245.59 samples/sec   Loss 11.4332   LearningRate 0.0025000   Epoch: 3   Global Step: 21150   Required: 3 hours
+Training: 2021-11-09 14:31:08,359-Speed 246.05 samples/sec   Loss 11.1887   LearningRate 0.0025000   Epoch: 3   Global Step: 21200   Required: 3 hours
+Training: 2021-11-09 14:31:34,376-Speed 246.02 samples/sec   Loss 11.1680   LearningRate 0.0025000   Epoch: 3   Global Step: 21250   Required: 3 hours
+Training: 2021-11-09 14:32:00,359-Speed 246.34 samples/sec   Loss 11.2385   LearningRate 0.0025000   Epoch: 3   Global Step: 21300   Required: 3 hours
+Training: 2021-11-09 14:32:26,362-Speed 246.16 samples/sec   Loss 10.9044   LearningRate 0.0025000   Epoch: 3   Global Step: 21350   Required: 3 hours
+Training: 2021-11-09 14:32:52,349-Speed 246.31 samples/sec   Loss 10.9242   LearningRate 0.0025000   Epoch: 3   Global Step: 21400   Required: 3 hours
+Training: 2021-11-09 14:33:18,347-Speed 246.20 samples/sec   Loss 11.4465   LearningRate 0.0025000   Epoch: 3   Global Step: 21450   Required: 3 hours
+Training: 2021-11-09 14:33:44,357-Speed 246.10 samples/sec   Loss 10.8991   LearningRate 0.0025000   Epoch: 3   Global Step: 21500   Required: 3 hours
+Training: 2021-11-09 14:34:10,332-Speed 246.42 samples/sec   Loss 11.0773   LearningRate 0.0025000   Epoch: 3   Global Step: 21550   Required: 3 hours
+Training: 2021-11-09 14:34:36,322-Speed 246.27 samples/sec   Loss 11.0872   LearningRate 0.0025000   Epoch: 3   Global Step: 21600   Required: 3 hours
+Training: 2021-11-09 14:35:02,339-Speed 246.03 samples/sec   Loss 11.2442   LearningRate 0.0025000   Epoch: 3   Global Step: 21650   Required: 3 hours
+Training: 2021-11-09 14:35:28,347-Speed 246.10 samples/sec   Loss 11.1102   LearningRate 0.0025000   Epoch: 3   Global Step: 21700   Required: 3 hours
+Training: 2021-11-09 14:35:54,377-Speed 245.90 samples/sec   Loss 10.9431   LearningRate 0.0025000   Epoch: 3   Global Step: 21750   Required: 3 hours
+Training: 2021-11-09 14:36:20,409-Speed 245.87 samples/sec   Loss 11.0281   LearningRate 0.0025000   Epoch: 3   Global Step: 21800   Required: 3 hours
+Training: 2021-11-09 14:36:46,447-Speed 245.83 samples/sec   Loss 10.9010   LearningRate 0.0025000   Epoch: 3   Global Step: 21850   Required: 3 hours
+Training: 2021-11-09 14:37:12,425-Speed 246.39 samples/sec   Loss 10.8942   LearningRate 0.0025000   Epoch: 3   Global Step: 21900   Required: 3 hours
+Training: 2021-11-09 14:37:38,389-Speed 246.53 samples/sec   Loss 10.9208   LearningRate 0.0025000   Epoch: 3   Global Step: 21950   Required: 3 hours
+Training: 2021-11-09 14:38:04,372-Speed 246.35 samples/sec   Loss 10.8633   LearningRate 0.0025000   Epoch: 3   Global Step: 22000   Required: 3 hours
+Training: 2021-11-09 14:39:34,370-[agedb_30][22000]XNorm: 15.246621
+Training: 2021-11-09 14:39:34,370-[agedb_30][22000]Accuracy-Flip: 0.75017+-0.02073
+Training: 2021-11-09 14:39:34,370-[agedb_30][22000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 14:43:16,946-[dev_00][22000]XNorm: 17.491021
+Training: 2021-11-09 14:43:16,946-[dev_00][22000]Accuracy-Flip: 0.52053+-0.04192
+Training: 2021-11-09 14:43:16,946-[dev_00][22000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 14:44:55,206-[dev_04][22000]XNorm: 17.535175
+Training: 2021-11-09 14:44:55,206-[dev_04][22000]Accuracy-Flip: 0.49802+-0.01677
+Training: 2021-11-09 14:44:55,206-[dev_04][22000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 14:45:21,721-Speed 14.63 samples/sec   Loss 10.5934   LearningRate 0.0025000   Epoch: 3   Global Step: 22050   Required: 3 hours
+Training: 2021-11-09 14:45:48,256-Speed 241.22 samples/sec   Loss 10.6425   LearningRate 0.0025000   Epoch: 3   Global Step: 22100   Required: 3 hours
+Training: 2021-11-09 14:46:14,688-Speed 242.16 samples/sec   Loss 10.7673   LearningRate 0.0025000   Epoch: 3   Global Step: 22150   Required: 3 hours
+Training: 2021-11-09 14:46:41,080-Speed 242.52 samples/sec   Loss 11.0013   LearningRate 0.0025000   Epoch: 3   Global Step: 22200   Required: 3 hours
+Training: 2021-11-09 14:47:07,507-Speed 242.21 samples/sec   Loss 10.6998   LearningRate 0.0025000   Epoch: 3   Global Step: 22250   Required: 3 hours
+Training: 2021-11-09 14:47:33,939-Speed 242.15 samples/sec   Loss 10.8517   LearningRate 0.0025000   Epoch: 3   Global Step: 22300   Required: 3 hours
+Training: 2021-11-09 14:48:00,417-Speed 241.75 samples/sec   Loss 10.7155   LearningRate 0.0025000   Epoch: 3   Global Step: 22350   Required: 3 hours
+Training: 2021-11-09 14:48:26,932-Speed 241.40 samples/sec   Loss 10.7023   LearningRate 0.0025000   Epoch: 3   Global Step: 22400   Required: 3 hours
+Training: 2021-11-09 14:48:53,482-Speed 241.09 samples/sec   Loss 10.9272   LearningRate 0.0025000   Epoch: 3   Global Step: 22450   Required: 3 hours
+Training: 2021-11-09 14:49:19,883-Speed 242.43 samples/sec   Loss 10.7215   LearningRate 0.0025000   Epoch: 3   Global Step: 22500   Required: 3 hours
+Training: 2021-11-09 14:49:46,239-Speed 242.85 samples/sec   Loss 10.6241   LearningRate 0.0025000   Epoch: 3   Global Step: 22550   Required: 3 hours
+Training: 2021-11-09 14:50:12,456-Speed 244.15 samples/sec   Loss 10.7485   LearningRate 0.0025000   Epoch: 3   Global Step: 22600   Required: 3 hours
+Training: 2021-11-09 14:50:38,641-Speed 244.45 samples/sec   Loss 10.5295   LearningRate 0.0025000   Epoch: 3   Global Step: 22650   Required: 3 hours
+Training: 2021-11-09 14:51:04,804-Speed 244.66 samples/sec   Loss 10.7620   LearningRate 0.0025000   Epoch: 3   Global Step: 22700   Required: 3 hours
+Training: 2021-11-09 14:51:30,955-Speed 244.74 samples/sec   Loss 10.6372   LearningRate 0.0025000   Epoch: 3   Global Step: 22750   Required: 3 hours
+Training: 2021-11-09 14:51:57,066-Speed 245.15 samples/sec   Loss 10.4663   LearningRate 0.0025000   Epoch: 3   Global Step: 22800   Required: 3 hours
+Training: 2021-11-09 14:52:23,076-Speed 246.09 samples/sec   Loss 10.6618   LearningRate 0.0025000   Epoch: 3   Global Step: 22850   Required: 3 hours
+Training: 2021-11-09 14:52:49,086-Speed 246.09 samples/sec   Loss 10.4446   LearningRate 0.0025000   Epoch: 3   Global Step: 22900   Required: 3 hours
+Training: 2021-11-09 14:53:15,096-Speed 246.07 samples/sec   Loss 10.5721   LearningRate 0.0025000   Epoch: 3   Global Step: 22950   Required: 3 hours
+Training: 2021-11-09 14:53:41,057-Speed 246.55 samples/sec   Loss 10.6585   LearningRate 0.0025000   Epoch: 3   Global Step: 23000   Required: 3 hours
+Training: 2021-11-09 14:54:07,011-Speed 246.63 samples/sec   Loss 10.3564   LearningRate 0.0025000   Epoch: 3   Global Step: 23050   Required: 3 hours
+Training: 2021-11-09 14:54:32,977-Speed 246.50 samples/sec   Loss 10.4026   LearningRate 0.0025000   Epoch: 3   Global Step: 23100   Required: 3 hours
+Training: 2021-11-09 14:54:59,021-Speed 245.78 samples/sec   Loss 10.3525   LearningRate 0.0025000   Epoch: 3   Global Step: 23150   Required: 3 hours
+Training: 2021-11-09 14:55:25,041-Speed 246.00 samples/sec   Loss 10.6271   LearningRate 0.0025000   Epoch: 3   Global Step: 23200   Required: 3 hours
+Training: 2021-11-09 14:55:51,023-Speed 246.36 samples/sec   Loss 10.5362   LearningRate 0.0025000   Epoch: 3   Global Step: 23250   Required: 3 hours
+Training: 2021-11-09 14:56:16,992-Speed 246.46 samples/sec   Loss 10.4064   LearningRate 0.0025000   Epoch: 3   Global Step: 23300   Required: 3 hours
+Training: 2021-11-09 14:56:42,951-Speed 246.58 samples/sec   Loss 10.2818   LearningRate 0.0025000   Epoch: 3   Global Step: 23350   Required: 3 hours
+Training: 2021-11-09 14:57:08,928-Speed 246.40 samples/sec   Loss 10.4853   LearningRate 0.0025000   Epoch: 3   Global Step: 23400   Required: 3 hours
+Training: 2021-11-09 14:57:34,941-Speed 246.04 samples/sec   Loss 10.5183   LearningRate 0.0025000   Epoch: 3   Global Step: 23450   Required: 3 hours
+Training: 2021-11-09 14:58:00,935-Speed 246.24 samples/sec   Loss 10.3046   LearningRate 0.0025000   Epoch: 3   Global Step: 23500   Required: 3 hours
+Training: 2021-11-09 14:58:26,864-Speed 246.86 samples/sec   Loss 10.3352   LearningRate 0.0025000   Epoch: 3   Global Step: 23550   Required: 3 hours
+Training: 2021-11-09 14:58:52,827-Speed 246.54 samples/sec   Loss 10.1939   LearningRate 0.0025000   Epoch: 3   Global Step: 23600   Required: 3 hours
+Training: 2021-11-09 14:59:18,801-Speed 246.42 samples/sec   Loss 10.6777   LearningRate 0.0025000   Epoch: 3   Global Step: 23650   Required: 3 hours
+Training: 2021-11-09 14:59:44,810-Speed 246.09 samples/sec   Loss 10.4343   LearningRate 0.0025000   Epoch: 3   Global Step: 23700   Required: 3 hours
+Training: 2021-11-09 15:00:10,798-Speed 246.31 samples/sec   Loss 10.0498   LearningRate 0.0025000   Epoch: 3   Global Step: 23750   Required: 3 hours
+Training: 2021-11-09 15:00:36,786-Speed 246.28 samples/sec   Loss 10.3848   LearningRate 0.0025000   Epoch: 3   Global Step: 23800   Required: 3 hours
+Training: 2021-11-09 15:01:02,717-Speed 246.84 samples/sec   Loss 10.3571   LearningRate 0.0025000   Epoch: 3   Global Step: 23850   Required: 3 hours
+Training: 2021-11-09 15:01:28,639-Speed 246.93 samples/sec   Loss 10.0530   LearningRate 0.0025000   Epoch: 3   Global Step: 23900   Required: 3 hours
+Training: 2021-11-09 15:01:54,573-Speed 246.81 samples/sec   Loss 10.5258   LearningRate 0.0025000   Epoch: 3   Global Step: 23950   Required: 3 hours
+Training: 2021-11-09 15:02:20,511-Speed 246.77 samples/sec   Loss 10.3583   LearningRate 0.0025000   Epoch: 3   Global Step: 24000   Required: 3 hours
+Training: 2021-11-09 15:03:50,499-[agedb_30][24000]XNorm: 15.343557
+Training: 2021-11-09 15:03:50,499-[agedb_30][24000]Accuracy-Flip: 0.74917+-0.01905
+Training: 2021-11-09 15:03:50,499-[agedb_30][24000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 15:07:33,049-[dev_00][24000]XNorm: 17.488172
+Training: 2021-11-09 15:07:33,049-[dev_00][24000]Accuracy-Flip: 0.52073+-0.04602
+Training: 2021-11-09 15:07:33,049-[dev_00][24000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 15:09:11,223-[dev_04][24000]XNorm: 17.528526
+Training: 2021-11-09 15:09:11,223-[dev_04][24000]Accuracy-Flip: 0.49710+-0.01631
+Training: 2021-11-09 15:09:11,223-[dev_04][24000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 15:09:37,684-Speed 14.64 samples/sec   Loss 10.3057   LearningRate 0.0025000   Epoch: 3   Global Step: 24050   Required: 3 hours
+Training: 2021-11-09 15:10:04,234-Speed 241.09 samples/sec   Loss 10.3340   LearningRate 0.0025000   Epoch: 3   Global Step: 24100   Required: 3 hours
+Training: 2021-11-09 15:10:30,633-Speed 242.46 samples/sec   Loss 10.1599   LearningRate 0.0025000   Epoch: 3   Global Step: 24150   Required: 3 hours
+Training: 2021-11-09 15:10:57,067-Speed 242.14 samples/sec   Loss 10.4145   LearningRate 0.0025000   Epoch: 3   Global Step: 24200   Required: 3 hours
+Training: 2021-11-09 15:11:23,577-Speed 241.44 samples/sec   Loss 10.4835   LearningRate 0.0025000   Epoch: 3   Global Step: 24250   Required: 3 hours
+Training: 2021-11-09 15:11:50,096-Speed 241.37 samples/sec   Loss 10.1984   LearningRate 0.0025000   Epoch: 3   Global Step: 24300   Required: 3 hours
+Training: 2021-11-09 15:12:16,496-Speed 242.45 samples/sec   Loss 10.1478   LearningRate 0.0025000   Epoch: 3   Global Step: 24350   Required: 3 hours
+Training: 2021-11-09 15:12:42,849-Speed 242.89 samples/sec   Loss 10.1020   LearningRate 0.0025000   Epoch: 3   Global Step: 24400   Required: 3 hours
+Training: 2021-11-09 15:13:09,290-Speed 242.06 samples/sec   Loss 10.4527   LearningRate 0.0025000   Epoch: 3   Global Step: 24450   Required: 3 hours
+Training: 2021-11-09 15:13:35,727-Speed 242.12 samples/sec   Loss 10.1288   LearningRate 0.0025000   Epoch: 3   Global Step: 24500   Required: 3 hours
+Training: 2021-11-09 15:14:02,088-Speed 242.80 samples/sec   Loss 10.1666   LearningRate 0.0025000   Epoch: 3   Global Step: 24550   Required: 3 hours
+Training: 2021-11-09 15:14:28,408-Speed 243.18 samples/sec   Loss 10.1412   LearningRate 0.0025000   Epoch: 3   Global Step: 24600   Required: 3 hours
+Training: 2021-11-09 15:14:54,662-Speed 243.80 samples/sec   Loss 10.0705   LearningRate 0.0025000   Epoch: 3   Global Step: 24650   Required: 3 hours
+Training: 2021-11-09 15:15:20,857-Speed 244.35 samples/sec   Loss 10.1815   LearningRate 0.0025000   Epoch: 3   Global Step: 24700   Required: 3 hours
+Training: 2021-11-09 15:15:47,061-Speed 244.28 samples/sec   Loss 10.0406   LearningRate 0.0025000   Epoch: 3   Global Step: 24750   Required: 3 hours
+Training: 2021-11-09 15:16:08,376-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
+Training: 2021-11-09 15:16:15,689-Speed 223.59 samples/sec   Loss 10.2514   LearningRate 0.0025000   Epoch: 4   Global Step: 24800   Required: 2 hours
+Training: 2021-11-09 15:16:41,758-Speed 245.52 samples/sec   Loss 9.7031   LearningRate 0.0025000   Epoch: 4   Global Step: 24850   Required: 2 hours
+Training: 2021-11-09 15:17:07,830-Speed 245.50 samples/sec   Loss 9.4179   LearningRate 0.0025000   Epoch: 4   Global Step: 24900   Required: 2 hours
+Training: 2021-11-09 15:17:33,893-Speed 245.59 samples/sec   Loss 9.7342   LearningRate 0.0025000   Epoch: 4   Global Step: 24950   Required: 2 hours
+Training: 2021-11-09 15:17:59,864-Speed 246.46 samples/sec   Loss 9.6460   LearningRate 0.0025000   Epoch: 4   Global Step: 25000   Required: 2 hours
+Training: 2021-11-09 15:18:25,851-Speed 246.30 samples/sec   Loss 9.6781   LearningRate 0.0025000   Epoch: 4   Global Step: 25050   Required: 2 hours
+Training: 2021-11-09 15:18:51,832-Speed 246.36 samples/sec   Loss 9.6533   LearningRate 0.0025000   Epoch: 4   Global Step: 25100   Required: 2 hours
+Training: 2021-11-09 15:19:17,849-Speed 246.02 samples/sec   Loss 9.5960   LearningRate 0.0025000   Epoch: 4   Global Step: 25150   Required: 2 hours
+Training: 2021-11-09 15:19:43,841-Speed 246.27 samples/sec   Loss 9.5627   LearningRate 0.0025000   Epoch: 4   Global Step: 25200   Required: 2 hours
+Training: 2021-11-09 15:20:09,846-Speed 246.13 samples/sec   Loss 9.5149   LearningRate 0.0025000   Epoch: 4   Global Step: 25250   Required: 2 hours
+Training: 2021-11-09 15:20:35,787-Speed 246.75 samples/sec   Loss 9.5888   LearningRate 0.0025000   Epoch: 4   Global Step: 25300   Required: 2 hours
+Training: 2021-11-09 15:21:01,758-Speed 246.45 samples/sec   Loss 9.4974   LearningRate 0.0025000   Epoch: 4   Global Step: 25350   Required: 2 hours
+Training: 2021-11-09 15:21:27,759-Speed 246.18 samples/sec   Loss 9.8320   LearningRate 0.0025000   Epoch: 4   Global Step: 25400   Required: 2 hours
+Training: 2021-11-09 15:21:53,747-Speed 246.30 samples/sec   Loss 9.4691   LearningRate 0.0025000   Epoch: 4   Global Step: 25450   Required: 2 hours
+Training: 2021-11-09 15:22:19,773-Speed 245.94 samples/sec   Loss 9.4077   LearningRate 0.0025000   Epoch: 4   Global Step: 25500   Required: 2 hours
+Training: 2021-11-09 15:22:45,788-Speed 246.04 samples/sec   Loss 9.4190   LearningRate 0.0025000   Epoch: 4   Global Step: 25550   Required: 2 hours
+Training: 2021-11-09 15:23:11,866-Speed 245.44 samples/sec   Loss 9.6193   LearningRate 0.0025000   Epoch: 4   Global Step: 25600   Required: 2 hours
+Training: 2021-11-09 15:23:37,849-Speed 246.35 samples/sec   Loss 9.4770   LearningRate 0.0025000   Epoch: 4   Global Step: 25650   Required: 2 hours
+Training: 2021-11-09 15:24:03,826-Speed 246.40 samples/sec   Loss 9.7627   LearningRate 0.0025000   Epoch: 4   Global Step: 25700   Required: 2 hours
+Training: 2021-11-09 15:24:29,806-Speed 246.37 samples/sec   Loss 9.6554   LearningRate 0.0025000   Epoch: 4   Global Step: 25750   Required: 2 hours
+Training: 2021-11-09 15:24:55,774-Speed 246.48 samples/sec   Loss 9.4682   LearningRate 0.0025000   Epoch: 4   Global Step: 25800   Required: 2 hours
+Training: 2021-11-09 15:25:21,767-Speed 246.24 samples/sec   Loss 9.3426   LearningRate 0.0025000   Epoch: 4   Global Step: 25850   Required: 2 hours
+Training: 2021-11-09 15:25:47,702-Speed 246.81 samples/sec   Loss 9.2449   LearningRate 0.0025000   Epoch: 4   Global Step: 25900   Required: 2 hours
+Training: 2021-11-09 15:26:13,710-Speed 246.11 samples/sec   Loss 9.6141   LearningRate 0.0025000   Epoch: 4   Global Step: 25950   Required: 2 hours
+Training: 2021-11-09 15:26:39,703-Speed 246.23 samples/sec   Loss 9.5239   LearningRate 0.0025000   Epoch: 4   Global Step: 26000   Required: 2 hours
+Training: 2021-11-09 15:28:09,769-[agedb_30][26000]XNorm: 15.090600
+Training: 2021-11-09 15:28:09,769-[agedb_30][26000]Accuracy-Flip: 0.74850+-0.02166
+Training: 2021-11-09 15:28:09,770-[agedb_30][26000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 15:31:52,446-[dev_00][26000]XNorm: 17.322777
+Training: 2021-11-09 15:31:52,447-[dev_00][26000]Accuracy-Flip: 0.52153+-0.04133
+Training: 2021-11-09 15:31:52,447-[dev_00][26000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 15:33:30,712-[dev_04][26000]XNorm: 17.343985
+Training: 2021-11-09 15:33:30,712-[dev_04][26000]Accuracy-Flip: 0.50031+-0.01997
+Training: 2021-11-09 15:33:30,712-[dev_04][26000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 15:33:57,229-Speed 14.63 samples/sec   Loss 9.3370   LearningRate 0.0025000   Epoch: 4   Global Step: 26050   Required: 2 hours
+Training: 2021-11-09 15:34:23,885-Speed 240.11 samples/sec   Loss 9.6753   LearningRate 0.0025000   Epoch: 4   Global Step: 26100   Required: 2 hours
+Training: 2021-11-09 15:34:50,294-Speed 242.37 samples/sec   Loss 9.7233   LearningRate 0.0025000   Epoch: 4   Global Step: 26150   Required: 2 hours
+Training: 2021-11-09 15:35:16,641-Speed 242.94 samples/sec   Loss 9.5229   LearningRate 0.0025000   Epoch: 4   Global Step: 26200   Required: 2 hours
+Training: 2021-11-09 15:35:43,087-Speed 242.03 samples/sec   Loss 9.5758   LearningRate 0.0025000   Epoch: 4   Global Step: 26250   Required: 2 hours
+Training: 2021-11-09 15:36:09,575-Speed 241.65 samples/sec   Loss 9.6390   LearningRate 0.0025000   Epoch: 4   Global Step: 26300   Required: 2 hours
+Training: 2021-11-09 15:36:36,092-Speed 241.39 samples/sec   Loss 9.2338   LearningRate 0.0025000   Epoch: 4   Global Step: 26350   Required: 2 hours
+Training: 2021-11-09 15:37:02,570-Speed 241.74 samples/sec   Loss 9.6636   LearningRate 0.0025000   Epoch: 4   Global Step: 26400   Required: 2 hours
+Training: 2021-11-09 15:37:29,114-Speed 241.12 samples/sec   Loss 9.3723   LearningRate 0.0025000   Epoch: 4   Global Step: 26450   Required: 2 hours
+Training: 2021-11-09 15:37:55,534-Speed 242.28 samples/sec   Loss 9.5467   LearningRate 0.0025000   Epoch: 4   Global Step: 26500   Required: 2 hours
+Training: 2021-11-09 15:38:21,880-Speed 242.96 samples/sec   Loss 9.4778   LearningRate 0.0025000   Epoch: 4   Global Step: 26550   Required: 2 hours
+Training: 2021-11-09 15:38:48,127-Speed 243.87 samples/sec   Loss 9.3858   LearningRate 0.0025000   Epoch: 4   Global Step: 26600   Required: 2 hours
+Training: 2021-11-09 15:39:14,251-Speed 245.01 samples/sec   Loss 9.6804   LearningRate 0.0025000   Epoch: 4   Global Step: 26650   Required: 2 hours
+Training: 2021-11-09 15:39:40,399-Speed 244.78 samples/sec   Loss 9.4233   LearningRate 0.0025000   Epoch: 4   Global Step: 26700   Required: 2 hours
+Training: 2021-11-09 15:40:06,537-Speed 244.89 samples/sec   Loss 9.3701   LearningRate 0.0025000   Epoch: 4   Global Step: 26750   Required: 2 hours
+Training: 2021-11-09 15:40:32,689-Speed 244.75 samples/sec   Loss 9.4202   LearningRate 0.0025000   Epoch: 4   Global Step: 26800   Required: 2 hours
+Training: 2021-11-09 15:40:58,828-Speed 244.88 samples/sec   Loss 9.5894   LearningRate 0.0025000   Epoch: 4   Global Step: 26850   Required: 2 hours
+Training: 2021-11-09 15:41:24,863-Speed 245.86 samples/sec   Loss 9.5496   LearningRate 0.0025000   Epoch: 4   Global Step: 26900   Required: 2 hours
+Training: 2021-11-09 15:41:50,931-Speed 245.53 samples/sec   Loss 9.6178   LearningRate 0.0025000   Epoch: 4   Global Step: 26950   Required: 2 hours
+Training: 2021-11-09 15:42:16,942-Speed 246.08 samples/sec   Loss 9.4172   LearningRate 0.0025000   Epoch: 4   Global Step: 27000   Required: 2 hours
+Training: 2021-11-09 15:42:42,954-Speed 246.08 samples/sec   Loss 9.3542   LearningRate 0.0025000   Epoch: 4   Global Step: 27050   Required: 2 hours
+Training: 2021-11-09 15:43:08,989-Speed 245.86 samples/sec   Loss 9.3224   LearningRate 0.0025000   Epoch: 4   Global Step: 27100   Required: 2 hours
+Training: 2021-11-09 15:43:35,033-Speed 245.76 samples/sec   Loss 9.5180   LearningRate 0.0025000   Epoch: 4   Global Step: 27150   Required: 2 hours
+Training: 2021-11-09 15:44:01,066-Speed 245.87 samples/sec   Loss 9.2609   LearningRate 0.0025000   Epoch: 4   Global Step: 27200   Required: 2 hours
+Training: 2021-11-09 15:44:27,097-Speed 245.89 samples/sec   Loss 9.6310   LearningRate 0.0025000   Epoch: 4   Global Step: 27250   Required: 2 hours
+Training: 2021-11-09 15:44:53,110-Speed 246.06 samples/sec   Loss 9.6335   LearningRate 0.0025000   Epoch: 4   Global Step: 27300   Required: 2 hours
+Training: 2021-11-09 15:45:19,138-Speed 245.92 samples/sec   Loss 9.4047   LearningRate 0.0025000   Epoch: 4   Global Step: 27350   Required: 2 hours
+Training: 2021-11-09 15:45:45,168-Speed 245.89 samples/sec   Loss 9.5437   LearningRate 0.0025000   Epoch: 4   Global Step: 27400   Required: 2 hours
+Training: 2021-11-09 15:46:11,214-Speed 245.74 samples/sec   Loss 9.4510   LearningRate 0.0025000   Epoch: 4   Global Step: 27450   Required: 2 hours
+Training: 2021-11-09 15:46:37,236-Speed 245.96 samples/sec   Loss 9.1658   LearningRate 0.0025000   Epoch: 4   Global Step: 27500   Required: 2 hours
+Training: 2021-11-09 15:47:03,241-Speed 246.13 samples/sec   Loss 9.6425   LearningRate 0.0025000   Epoch: 4   Global Step: 27550   Required: 2 hours
+Training: 2021-11-09 15:47:29,308-Speed 245.55 samples/sec   Loss 9.3776   LearningRate 0.0025000   Epoch: 4   Global Step: 27600   Required: 2 hours
+Training: 2021-11-09 15:47:55,345-Speed 245.83 samples/sec   Loss 9.2035   LearningRate 0.0025000   Epoch: 4   Global Step: 27650   Required: 2 hours
+Training: 2021-11-09 15:48:21,341-Speed 246.23 samples/sec   Loss 9.5246   LearningRate 0.0025000   Epoch: 4   Global Step: 27700   Required: 2 hours
+Training: 2021-11-09 15:48:47,351-Speed 246.10 samples/sec   Loss 9.4086   LearningRate 0.0025000   Epoch: 4   Global Step: 27750   Required: 2 hours
+Training: 2021-11-09 15:49:13,365-Speed 246.06 samples/sec   Loss 9.2071   LearningRate 0.0025000   Epoch: 4   Global Step: 27800   Required: 2 hours
+Training: 2021-11-09 15:49:39,383-Speed 246.02 samples/sec   Loss 9.2552   LearningRate 0.0025000   Epoch: 4   Global Step: 27850   Required: 2 hours
+Training: 2021-11-09 15:50:05,394-Speed 246.08 samples/sec   Loss 9.2105   LearningRate 0.0025000   Epoch: 4   Global Step: 27900   Required: 2 hours
+Training: 2021-11-09 15:50:31,452-Speed 245.64 samples/sec   Loss 9.2339   LearningRate 0.0025000   Epoch: 4   Global Step: 27950   Required: 2 hours
+Training: 2021-11-09 15:50:57,473-Speed 245.99 samples/sec   Loss 9.3199   LearningRate 0.0025000   Epoch: 4   Global Step: 28000   Required: 2 hours
+Training: 2021-11-09 15:52:27,438-[agedb_30][28000]XNorm: 14.812652
+Training: 2021-11-09 15:52:27,438-[agedb_30][28000]Accuracy-Flip: 0.74783+-0.01997
+Training: 2021-11-09 15:52:27,438-[agedb_30][28000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 15:56:10,113-[dev_00][28000]XNorm: 16.978682
+Training: 2021-11-09 15:56:10,113-[dev_00][28000]Accuracy-Flip: 0.51707+-0.03802
+Training: 2021-11-09 15:56:10,114-[dev_00][28000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 15:57:48,430-[dev_04][28000]XNorm: 17.011022
+Training: 2021-11-09 15:57:48,430-[dev_04][28000]Accuracy-Flip: 0.48977+-0.01640
+Training: 2021-11-09 15:57:48,430-[dev_04][28000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 15:58:14,912-Speed 14.63 samples/sec   Loss 9.4325   LearningRate 0.0025000   Epoch: 4   Global Step: 28050   Required: 2 hours
+Training: 2021-11-09 15:58:41,485-Speed 240.87 samples/sec   Loss 9.5151   LearningRate 0.0025000   Epoch: 4   Global Step: 28100   Required: 2 hours
+Training: 2021-11-09 15:59:07,897-Speed 242.35 samples/sec   Loss 9.2114   LearningRate 0.0025000   Epoch: 4   Global Step: 28150   Required: 2 hours
+Training: 2021-11-09 15:59:34,301-Speed 242.42 samples/sec   Loss 9.5579   LearningRate 0.0025000   Epoch: 4   Global Step: 28200   Required: 2 hours
+Training: 2021-11-09 16:00:00,734-Speed 242.15 samples/sec   Loss 9.3567   LearningRate 0.0025000   Epoch: 4   Global Step: 28250   Required: 2 hours
+Training: 2021-11-09 16:00:27,210-Speed 241.75 samples/sec   Loss 9.2418   LearningRate 0.0025000   Epoch: 4   Global Step: 28300   Required: 2 hours
+Training: 2021-11-09 16:00:53,744-Speed 241.23 samples/sec   Loss 9.2811   LearningRate 0.0025000   Epoch: 4   Global Step: 28350   Required: 2 hours
+Training: 2021-11-09 16:01:20,279-Speed 241.22 samples/sec   Loss 9.4505   LearningRate 0.0025000   Epoch: 4   Global Step: 28400   Required: 2 hours
+Training: 2021-11-09 16:01:46,806-Speed 241.30 samples/sec   Loss 9.2377   LearningRate 0.0025000   Epoch: 4   Global Step: 28450   Required: 2 hours
+Training: 2021-11-09 16:02:13,175-Speed 242.74 samples/sec   Loss 9.4005   LearningRate 0.0025000   Epoch: 4   Global Step: 28500   Required: 2 hours
+Training: 2021-11-09 16:02:39,517-Speed 242.99 samples/sec   Loss 9.2935   LearningRate 0.0025000   Epoch: 4   Global Step: 28550   Required: 2 hours
+Training: 2021-11-09 16:03:05,780-Speed 243.72 samples/sec   Loss 9.1020   LearningRate 0.0025000   Epoch: 4   Global Step: 28600   Required: 2 hours
+Training: 2021-11-09 16:03:31,961-Speed 244.49 samples/sec   Loss 9.4026   LearningRate 0.0025000   Epoch: 4   Global Step: 28650   Required: 2 hours
+Training: 2021-11-09 16:03:58,109-Speed 244.77 samples/sec   Loss 9.3147   LearningRate 0.0025000   Epoch: 4   Global Step: 28700   Required: 2 hours
+Training: 2021-11-09 16:04:24,245-Speed 244.90 samples/sec   Loss 9.2972   LearningRate 0.0025000   Epoch: 4   Global Step: 28750   Required: 2 hours
+Training: 2021-11-09 16:04:50,362-Speed 245.09 samples/sec   Loss 9.3447   LearningRate 0.0025000   Epoch: 4   Global Step: 28800   Required: 2 hours
+Training: 2021-11-09 16:05:16,459-Speed 245.27 samples/sec   Loss 9.3370   LearningRate 0.0025000   Epoch: 4   Global Step: 28850   Required: 2 hours
+Training: 2021-11-09 16:05:42,485-Speed 245.94 samples/sec   Loss 9.1630   LearningRate 0.0025000   Epoch: 4   Global Step: 28900   Required: 2 hours
+Training: 2021-11-09 16:06:08,552-Speed 245.54 samples/sec   Loss 9.1456   LearningRate 0.0025000   Epoch: 4   Global Step: 28950   Required: 2 hours
+Training: 2021-11-09 16:06:34,580-Speed 245.91 samples/sec   Loss 9.3963   LearningRate 0.0025000   Epoch: 4   Global Step: 29000   Required: 2 hours
+Training: 2021-11-09 16:07:00,582-Speed 246.17 samples/sec   Loss 9.3654   LearningRate 0.0025000   Epoch: 4   Global Step: 29050   Required: 2 hours
+Training: 2021-11-09 16:07:26,586-Speed 246.14 samples/sec   Loss 9.0311   LearningRate 0.0025000   Epoch: 4   Global Step: 29100   Required: 2 hours
+Training: 2021-11-09 16:07:52,562-Speed 246.41 samples/sec   Loss 9.3877   LearningRate 0.0025000   Epoch: 4   Global Step: 29150   Required: 2 hours
+Training: 2021-11-09 16:08:18,548-Speed 246.32 samples/sec   Loss 9.2686   LearningRate 0.0025000   Epoch: 4   Global Step: 29200   Required: 2 hours
+Training: 2021-11-09 16:08:44,513-Speed 246.52 samples/sec   Loss 9.1947   LearningRate 0.0025000   Epoch: 4   Global Step: 29250   Required: 2 hours
+Training: 2021-11-09 16:09:10,492-Speed 246.38 samples/sec   Loss 9.3050   LearningRate 0.0025000   Epoch: 4   Global Step: 29300   Required: 2 hours
+Training: 2021-11-09 16:09:36,483-Speed 246.26 samples/sec   Loss 9.3026   LearningRate 0.0025000   Epoch: 4   Global Step: 29350   Required: 2 hours
+Training: 2021-11-09 16:10:02,464-Speed 246.37 samples/sec   Loss 9.2129   LearningRate 0.0025000   Epoch: 4   Global Step: 29400   Required: 2 hours
+Training: 2021-11-09 16:10:28,469-Speed 246.14 samples/sec   Loss 9.3332   LearningRate 0.0025000   Epoch: 4   Global Step: 29450   Required: 2 hours
+Training: 2021-11-09 16:10:54,462-Speed 246.25 samples/sec   Loss 9.3082   LearningRate 0.0025000   Epoch: 4   Global Step: 29500   Required: 2 hours
+Training: 2021-11-09 16:11:20,419-Speed 246.60 samples/sec   Loss 9.2592   LearningRate 0.0025000   Epoch: 4   Global Step: 29550   Required: 2 hours
+Training: 2021-11-09 16:11:46,374-Speed 246.61 samples/sec   Loss 9.2093   LearningRate 0.0025000   Epoch: 4   Global Step: 29600   Required: 2 hours
+Training: 2021-11-09 16:12:12,372-Speed 246.21 samples/sec   Loss 9.1997   LearningRate 0.0025000   Epoch: 4   Global Step: 29650   Required: 2 hours
+Training: 2021-11-09 16:12:38,361-Speed 246.29 samples/sec   Loss 9.0416   LearningRate 0.0025000   Epoch: 4   Global Step: 29700   Required: 1 hours
+Training: 2021-11-09 16:13:04,364-Speed 246.16 samples/sec   Loss 9.3568   LearningRate 0.0025000   Epoch: 4   Global Step: 29750   Required: 1 hours
+Training: 2021-11-09 16:13:30,331-Speed 246.50 samples/sec   Loss 9.2311   LearningRate 0.0025000   Epoch: 4   Global Step: 29800   Required: 1 hours
+Training: 2021-11-09 16:13:56,320-Speed 246.29 samples/sec   Loss 9.1344   LearningRate 0.0025000   Epoch: 4   Global Step: 29850   Required: 1 hours
+Training: 2021-11-09 16:14:22,300-Speed 246.38 samples/sec   Loss 9.1973   LearningRate 0.0025000   Epoch: 4   Global Step: 29900   Required: 1 hours
+Training: 2021-11-09 16:14:48,278-Speed 246.37 samples/sec   Loss 9.1590   LearningRate 0.0025000   Epoch: 4   Global Step: 29950   Required: 1 hours
+Training: 2021-11-09 16:15:14,314-Speed 245.84 samples/sec   Loss 9.3029   LearningRate 0.0025000   Epoch: 4   Global Step: 30000   Required: 1 hours
+Training: 2021-11-09 16:16:44,390-[agedb_30][30000]XNorm: 15.206228
+Training: 2021-11-09 16:16:44,391-[agedb_30][30000]Accuracy-Flip: 0.74500+-0.01398
+Training: 2021-11-09 16:16:44,391-[agedb_30][30000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 16:20:27,009-[dev_00][30000]XNorm: 17.187865
+Training: 2021-11-09 16:20:27,009-[dev_00][30000]Accuracy-Flip: 0.52807+-0.04669
+Training: 2021-11-09 16:20:27,010-[dev_00][30000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 16:22:05,165-[dev_04][30000]XNorm: 17.214203
+Training: 2021-11-09 16:22:05,165-[dev_04][30000]Accuracy-Flip: 0.48855+-0.01679
+Training: 2021-11-09 16:22:05,165-[dev_04][30000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 16:22:31,628-Speed 14.63 samples/sec   Loss 9.4640   LearningRate 0.0025000   Epoch: 4   Global Step: 30050   Required: 1 hours
+Training: 2021-11-09 16:22:58,143-Speed 241.40 samples/sec   Loss 9.2163   LearningRate 0.0025000   Epoch: 4   Global Step: 30100   Required: 1 hours
+Training: 2021-11-09 16:23:24,519-Speed 242.67 samples/sec   Loss 9.2474   LearningRate 0.0025000   Epoch: 4   Global Step: 30150   Required: 1 hours
+Training: 2021-11-09 16:23:50,895-Speed 242.68 samples/sec   Loss 9.0434   LearningRate 0.0025000   Epoch: 4   Global Step: 30200   Required: 1 hours
+Training: 2021-11-09 16:24:17,393-Speed 241.56 samples/sec   Loss 9.4073   LearningRate 0.0025000   Epoch: 4   Global Step: 30250   Required: 1 hours
+Training: 2021-11-09 16:24:43,826-Speed 242.14 samples/sec   Loss 9.2519   LearningRate 0.0025000   Epoch: 4   Global Step: 30300   Required: 1 hours
+Training: 2021-11-09 16:25:10,275-Speed 242.01 samples/sec   Loss 9.4121   LearningRate 0.0025000   Epoch: 4   Global Step: 30350   Required: 1 hours
+Training: 2021-11-09 16:25:36,707-Speed 242.15 samples/sec   Loss 9.5110   LearningRate 0.0025000   Epoch: 4   Global Step: 30400   Required: 1 hours
+Training: 2021-11-09 16:26:03,107-Speed 242.46 samples/sec   Loss 9.0621   LearningRate 0.0025000   Epoch: 4   Global Step: 30450   Required: 1 hours
+Training: 2021-11-09 16:26:29,515-Speed 242.39 samples/sec   Loss 9.1470   LearningRate 0.0025000   Epoch: 4   Global Step: 30500   Required: 1 hours
+Training: 2021-11-09 16:26:55,810-Speed 243.42 samples/sec   Loss 9.1763   LearningRate 0.0025000   Epoch: 4   Global Step: 30550   Required: 1 hours
+Training: 2021-11-09 16:27:22,025-Speed 244.17 samples/sec   Loss 9.2038   LearningRate 0.0025000   Epoch: 4   Global Step: 30600   Required: 1 hours
+Training: 2021-11-09 16:27:48,132-Speed 245.17 samples/sec   Loss 9.0674   LearningRate 0.0025000   Epoch: 4   Global Step: 30650   Required: 1 hours
+Training: 2021-11-09 16:28:14,255-Speed 245.03 samples/sec   Loss 9.1260   LearningRate 0.0025000   Epoch: 4   Global Step: 30700   Required: 1 hours
+Training: 2021-11-09 16:28:40,394-Speed 244.88 samples/sec   Loss 9.1562   LearningRate 0.0025000   Epoch: 4   Global Step: 30750   Required: 1 hours
+Training: 2021-11-09 16:29:06,445-Speed 245.70 samples/sec   Loss 8.9748   LearningRate 0.0025000   Epoch: 4   Global Step: 30800   Required: 1 hours
+Training: 2021-11-09 16:29:32,488-Speed 245.78 samples/sec   Loss 9.0297   LearningRate 0.0025000   Epoch: 4   Global Step: 30850   Required: 1 hours
+Training: 2021-11-09 16:29:58,503-Speed 246.05 samples/sec   Loss 9.2010   LearningRate 0.0025000   Epoch: 4   Global Step: 30900   Required: 1 hours
+Training: 2021-11-09 16:30:24,519-Speed 246.03 samples/sec   Loss 9.1421   LearningRate 0.0025000   Epoch: 4   Global Step: 30950   Required: 1 hours
+Training: 2021-11-09 16:30:44,100-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
+Training: 2021-11-09 16:30:52,928-Speed 225.31 samples/sec   Loss 9.0541   LearningRate 0.0025000   Epoch: 5   Global Step: 31000   Required: 1 hours
+Training: 2021-11-09 16:31:18,835-Speed 247.07 samples/sec   Loss 8.8159   LearningRate 0.0025000   Epoch: 5   Global Step: 31050   Required: 1 hours
+Training: 2021-11-09 16:31:44,803-Speed 246.48 samples/sec   Loss 8.4735   LearningRate 0.0025000   Epoch: 5   Global Step: 31100   Required: 1 hours
+Training: 2021-11-09 16:32:10,782-Speed 246.39 samples/sec   Loss 8.5572   LearningRate 0.0025000   Epoch: 5   Global Step: 31150   Required: 1 hours
+Training: 2021-11-09 16:32:36,744-Speed 246.55 samples/sec   Loss 8.5230   LearningRate 0.0025000   Epoch: 5   Global Step: 31200   Required: 1 hours
+Training: 2021-11-09 16:33:02,759-Speed 246.03 samples/sec   Loss 8.8523   LearningRate 0.0025000   Epoch: 5   Global Step: 31250   Required: 1 hours
+Training: 2021-11-09 16:33:28,685-Speed 246.89 samples/sec   Loss 8.5332   LearningRate 0.0025000   Epoch: 5   Global Step: 31300   Required: 1 hours
+Training: 2021-11-09 16:33:54,623-Speed 246.77 samples/sec   Loss 8.4816   LearningRate 0.0025000   Epoch: 5   Global Step: 31350   Required: 1 hours
+Training: 2021-11-09 16:34:20,602-Speed 246.39 samples/sec   Loss 8.5444   LearningRate 0.0025000   Epoch: 5   Global Step: 31400   Required: 1 hours
+Training: 2021-11-09 16:34:46,503-Speed 247.13 samples/sec   Loss 8.7269   LearningRate 0.0025000   Epoch: 5   Global Step: 31450   Required: 1 hours
+Training: 2021-11-09 16:35:12,444-Speed 246.75 samples/sec   Loss 8.5863   LearningRate 0.0025000   Epoch: 5   Global Step: 31500   Required: 1 hours
+Training: 2021-11-09 16:35:38,380-Speed 246.79 samples/sec   Loss 8.5837   LearningRate 0.0025000   Epoch: 5   Global Step: 31550   Required: 1 hours
+Training: 2021-11-09 16:36:04,298-Speed 246.95 samples/sec   Loss 8.8437   LearningRate 0.0025000   Epoch: 5   Global Step: 31600   Required: 1 hours
+Training: 2021-11-09 16:36:30,290-Speed 246.26 samples/sec   Loss 8.5736   LearningRate 0.0025000   Epoch: 5   Global Step: 31650   Required: 1 hours
+Training: 2021-11-09 16:36:56,237-Speed 246.69 samples/sec   Loss 8.6395   LearningRate 0.0025000   Epoch: 5   Global Step: 31700   Required: 1 hours
+Training: 2021-11-09 16:37:22,165-Speed 246.87 samples/sec   Loss 8.5416   LearningRate 0.0025000   Epoch: 5   Global Step: 31750   Required: 1 hours
+Training: 2021-11-09 16:37:48,134-Speed 246.46 samples/sec   Loss 8.4905   LearningRate 0.0025000   Epoch: 5   Global Step: 31800   Required: 1 hours
+Training: 2021-11-09 16:38:14,056-Speed 246.93 samples/sec   Loss 8.9106   LearningRate 0.0025000   Epoch: 5   Global Step: 31850   Required: 1 hours
+Training: 2021-11-09 16:38:40,031-Speed 246.42 samples/sec   Loss 8.6110   LearningRate 0.0025000   Epoch: 5   Global Step: 31900   Required: 1 hours
+Training: 2021-11-09 16:39:05,964-Speed 246.80 samples/sec   Loss 8.6422   LearningRate 0.0025000   Epoch: 5   Global Step: 31950   Required: 1 hours
+Training: 2021-11-09 16:39:31,896-Speed 246.83 samples/sec   Loss 8.7976   LearningRate 0.0025000   Epoch: 5   Global Step: 32000   Required: 1 hours
+Training: 2021-11-09 16:41:01,751-[agedb_30][32000]XNorm: 15.093830
+Training: 2021-11-09 16:41:01,751-[agedb_30][32000]Accuracy-Flip: 0.74333+-0.01829
+Training: 2021-11-09 16:41:01,751-[agedb_30][32000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 16:44:44,634-[dev_00][32000]XNorm: 17.100308
+Training: 2021-11-09 16:44:44,634-[dev_00][32000]Accuracy-Flip: 0.52333+-0.04692
+Training: 2021-11-09 16:44:44,634-[dev_00][32000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 16:46:22,898-[dev_04][32000]XNorm: 17.123005
+Training: 2021-11-09 16:46:22,898-[dev_04][32000]Accuracy-Flip: 0.49145+-0.01746
+Training: 2021-11-09 16:46:22,898-[dev_04][32000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 16:46:49,427-Speed 14.63 samples/sec   Loss 8.3482   LearningRate 0.0025000   Epoch: 5   Global Step: 32050   Required: 1 hours
+Training: 2021-11-09 16:47:15,934-Speed 241.47 samples/sec   Loss 8.8796   LearningRate 0.0025000   Epoch: 5   Global Step: 32100   Required: 1 hours
+Training: 2021-11-09 16:47:42,277-Speed 242.96 samples/sec   Loss 8.5989   LearningRate 0.0025000   Epoch: 5   Global Step: 32150   Required: 1 hours
+Training: 2021-11-09 16:48:08,681-Speed 242.42 samples/sec   Loss 8.8411   LearningRate 0.0025000   Epoch: 5   Global Step: 32200   Required: 1 hours
+Training: 2021-11-09 16:48:35,163-Speed 241.69 samples/sec   Loss 8.7392   LearningRate 0.0025000   Epoch: 5   Global Step: 32250   Required: 1 hours
+Training: 2021-11-09 16:49:01,657-Speed 241.60 samples/sec   Loss 8.5860   LearningRate 0.0025000   Epoch: 5   Global Step: 32300   Required: 1 hours
+Training: 2021-11-09 16:49:28,139-Speed 241.70 samples/sec   Loss 8.6317   LearningRate 0.0025000   Epoch: 5   Global Step: 32350   Required: 1 hours
+Training: 2021-11-09 16:49:54,593-Speed 241.96 samples/sec   Loss 8.7141   LearningRate 0.0025000   Epoch: 5   Global Step: 32400   Required: 1 hours
+Training: 2021-11-09 16:50:21,090-Speed 241.56 samples/sec   Loss 8.6338   LearningRate 0.0025000   Epoch: 5   Global Step: 32450   Required: 1 hours
+Training: 2021-11-09 16:50:47,498-Speed 242.37 samples/sec   Loss 8.5607   LearningRate 0.0025000   Epoch: 5   Global Step: 32500   Required: 1 hours
+Training: 2021-11-09 16:51:13,864-Speed 242.77 samples/sec   Loss 8.4961   LearningRate 0.0025000   Epoch: 5   Global Step: 32550   Required: 1 hours
+Training: 2021-11-09 16:51:40,157-Speed 243.44 samples/sec   Loss 8.4338   LearningRate 0.0025000   Epoch: 5   Global Step: 32600   Required: 1 hours
+Training: 2021-11-09 16:52:06,334-Speed 244.52 samples/sec   Loss 8.5257   LearningRate 0.0025000   Epoch: 5   Global Step: 32650   Required: 1 hours
+Training: 2021-11-09 16:52:32,493-Speed 244.70 samples/sec   Loss 8.7416   LearningRate 0.0025000   Epoch: 5   Global Step: 32700   Required: 1 hours
+Training: 2021-11-09 16:52:58,575-Speed 245.41 samples/sec   Loss 8.5104   LearningRate 0.0025000   Epoch: 5   Global Step: 32750   Required: 1 hours
+Training: 2021-11-09 16:53:24,655-Speed 245.43 samples/sec   Loss 8.6015   LearningRate 0.0025000   Epoch: 5   Global Step: 32800   Required: 1 hours
+Training: 2021-11-09 16:53:50,737-Speed 245.41 samples/sec   Loss 8.7081   LearningRate 0.0025000   Epoch: 5   Global Step: 32850   Required: 1 hours
+Training: 2021-11-09 16:54:16,747-Speed 246.09 samples/sec   Loss 8.5377   LearningRate 0.0025000   Epoch: 5   Global Step: 32900   Required: 1 hours
+Training: 2021-11-09 16:54:42,773-Speed 245.93 samples/sec   Loss 8.5200   LearningRate 0.0025000   Epoch: 5   Global Step: 32950   Required: 1 hours
+Training: 2021-11-09 16:55:08,786-Speed 246.06 samples/sec   Loss 8.6043   LearningRate 0.0025000   Epoch: 5   Global Step: 33000   Required: 1 hours
+Training: 2021-11-09 16:55:34,750-Speed 246.53 samples/sec   Loss 8.7725   LearningRate 0.0025000   Epoch: 5   Global Step: 33050   Required: 1 hours
+Training: 2021-11-09 16:56:00,700-Speed 246.65 samples/sec   Loss 8.8597   LearningRate 0.0025000   Epoch: 5   Global Step: 33100   Required: 1 hours
+Training: 2021-11-09 16:56:26,732-Speed 245.88 samples/sec   Loss 8.7330   LearningRate 0.0025000   Epoch: 5   Global Step: 33150   Required: 1 hours
+Training: 2021-11-09 16:56:52,770-Speed 245.81 samples/sec   Loss 8.6889   LearningRate 0.0025000   Epoch: 5   Global Step: 33200   Required: 1 hours
+Training: 2021-11-09 16:57:18,717-Speed 246.69 samples/sec   Loss 8.6012   LearningRate 0.0025000   Epoch: 5   Global Step: 33250   Required: 1 hours
+Training: 2021-11-09 16:57:44,646-Speed 246.86 samples/sec   Loss 8.6097   LearningRate 0.0025000   Epoch: 5   Global Step: 33300   Required: 1 hours
+Training: 2021-11-09 16:58:10,667-Speed 245.98 samples/sec   Loss 8.6286   LearningRate 0.0025000   Epoch: 5   Global Step: 33350   Required: 1 hours
+Training: 2021-11-09 16:58:36,679-Speed 246.07 samples/sec   Loss 8.6418   LearningRate 0.0025000   Epoch: 5   Global Step: 33400   Required: 1 hours
+Training: 2021-11-09 16:59:02,666-Speed 246.31 samples/sec   Loss 8.6737   LearningRate 0.0025000   Epoch: 5   Global Step: 33450   Required: 1 hours
+Training: 2021-11-09 16:59:28,661-Speed 246.23 samples/sec   Loss 8.6966   LearningRate 0.0025000   Epoch: 5   Global Step: 33500   Required: 1 hours
+Training: 2021-11-09 16:59:54,693-Speed 245.87 samples/sec   Loss 8.8415   LearningRate 0.0025000   Epoch: 5   Global Step: 33550   Required: 1 hours
+Training: 2021-11-09 17:00:20,663-Speed 246.47 samples/sec   Loss 8.7309   LearningRate 0.0025000   Epoch: 5   Global Step: 33600   Required: 1 hours
+Training: 2021-11-09 17:00:46,656-Speed 246.23 samples/sec   Loss 8.6451   LearningRate 0.0025000   Epoch: 5   Global Step: 33650   Required: 1 hours
+Training: 2021-11-09 17:01:12,671-Speed 246.04 samples/sec   Loss 8.7836   LearningRate 0.0025000   Epoch: 5   Global Step: 33700   Required: 1 hours
+Training: 2021-11-09 17:01:38,679-Speed 246.11 samples/sec   Loss 8.6251   LearningRate 0.0025000   Epoch: 5   Global Step: 33750   Required: 1 hours
+Training: 2021-11-09 17:02:04,683-Speed 246.15 samples/sec   Loss 8.6449   LearningRate 0.0025000   Epoch: 5   Global Step: 33800   Required: 1 hours
+Training: 2021-11-09 17:02:30,690-Speed 246.12 samples/sec   Loss 8.5077   LearningRate 0.0025000   Epoch: 5   Global Step: 33850   Required: 1 hours
+Training: 2021-11-09 17:02:56,751-Speed 245.60 samples/sec   Loss 8.7071   LearningRate 0.0025000   Epoch: 5   Global Step: 33900   Required: 1 hours
+Training: 2021-11-09 17:03:22,768-Speed 246.03 samples/sec   Loss 8.6216   LearningRate 0.0025000   Epoch: 5   Global Step: 33950   Required: 1 hours
+Training: 2021-11-09 17:03:48,801-Speed 245.87 samples/sec   Loss 8.5904   LearningRate 0.0025000   Epoch: 5   Global Step: 34000   Required: 1 hours
+Training: 2021-11-09 17:05:18,847-[agedb_30][34000]XNorm: 15.240212
+Training: 2021-11-09 17:05:18,847-[agedb_30][34000]Accuracy-Flip: 0.73950+-0.01762
+Training: 2021-11-09 17:05:18,847-[agedb_30][34000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 17:09:01,743-[dev_00][34000]XNorm: 17.188918
+Training: 2021-11-09 17:09:01,743-[dev_00][34000]Accuracy-Flip: 0.52973+-0.04358
+Training: 2021-11-09 17:09:01,743-[dev_00][34000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 17:10:40,096-[dev_04][34000]XNorm: 17.207761
+Training: 2021-11-09 17:10:40,096-[dev_04][34000]Accuracy-Flip: 0.49802+-0.01888
+Training: 2021-11-09 17:10:40,096-[dev_04][34000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 17:11:06,607-Speed 14.62 samples/sec   Loss 8.6827   LearningRate 0.0025000   Epoch: 5   Global Step: 34050   Required: 1 hours
+Training: 2021-11-09 17:11:33,140-Speed 241.23 samples/sec   Loss 8.5894   LearningRate 0.0025000   Epoch: 5   Global Step: 34100   Required: 1 hours
+Training: 2021-11-09 17:11:59,639-Speed 241.55 samples/sec   Loss 8.8495   LearningRate 0.0025000   Epoch: 5   Global Step: 34150   Required: 1 hours
+Training: 2021-11-09 17:12:26,013-Speed 242.69 samples/sec   Loss 8.5471   LearningRate 0.0025000   Epoch: 5   Global Step: 34200   Required: 1 hours
+Training: 2021-11-09 17:12:52,430-Speed 242.30 samples/sec   Loss 8.8024   LearningRate 0.0025000   Epoch: 5   Global Step: 34250   Required: 1 hours
+Training: 2021-11-09 17:13:18,961-Speed 241.27 samples/sec   Loss 8.7690   LearningRate 0.0025000   Epoch: 5   Global Step: 34300   Required: 1 hours
+Training: 2021-11-09 17:13:45,547-Speed 240.73 samples/sec   Loss 8.7261   LearningRate 0.0025000   Epoch: 5   Global Step: 34350   Required: 1 hours
+Training: 2021-11-09 17:14:12,096-Speed 241.09 samples/sec   Loss 8.6394   LearningRate 0.0025000   Epoch: 5   Global Step: 34400   Required: 1 hours
+Training: 2021-11-09 17:14:38,609-Speed 241.42 samples/sec   Loss 8.5816   LearningRate 0.0025000   Epoch: 5   Global Step: 34450   Required: 1 hours
+Training: 2021-11-09 17:15:05,014-Speed 242.40 samples/sec   Loss 8.5249   LearningRate 0.0025000   Epoch: 5   Global Step: 34500   Required: 1 hours
+Training: 2021-11-09 17:15:31,357-Speed 242.99 samples/sec   Loss 8.5432   LearningRate 0.0025000   Epoch: 5   Global Step: 34550   Required: 1 hours
+Training: 2021-11-09 17:15:57,634-Speed 243.59 samples/sec   Loss 8.6263   LearningRate 0.0025000   Epoch: 5   Global Step: 34600   Required: 1 hours
+Training: 2021-11-09 17:16:23,854-Speed 244.10 samples/sec   Loss 8.8848   LearningRate 0.0025000   Epoch: 5   Global Step: 34650   Required: 1 hours
+Training: 2021-11-09 17:16:50,015-Speed 244.67 samples/sec   Loss 8.7577   LearningRate 0.0025000   Epoch: 5   Global Step: 34700   Required: 1 hours
+Training: 2021-11-09 17:17:16,106-Speed 245.32 samples/sec   Loss 8.7013   LearningRate 0.0025000   Epoch: 5   Global Step: 34750   Required: 0 hours
+Training: 2021-11-09 17:17:42,143-Speed 245.82 samples/sec   Loss 8.6418   LearningRate 0.0025000   Epoch: 5   Global Step: 34800   Required: 0 hours
+Training: 2021-11-09 17:18:08,240-Speed 245.28 samples/sec   Loss 8.5318   LearningRate 0.0025000   Epoch: 5   Global Step: 34850   Required: 0 hours
+Training: 2021-11-09 17:18:34,250-Speed 246.08 samples/sec   Loss 8.6932   LearningRate 0.0025000   Epoch: 5   Global Step: 34900   Required: 0 hours
+Training: 2021-11-09 17:19:00,287-Speed 245.84 samples/sec   Loss 8.7980   LearningRate 0.0025000   Epoch: 5   Global Step: 34950   Required: 0 hours
+Training: 2021-11-09 17:19:26,290-Speed 246.15 samples/sec   Loss 8.5372   LearningRate 0.0025000   Epoch: 5   Global Step: 35000   Required: 0 hours
+Training: 2021-11-09 17:19:52,340-Speed 245.71 samples/sec   Loss 8.6878   LearningRate 0.0025000   Epoch: 5   Global Step: 35050   Required: 0 hours
+Training: 2021-11-09 17:20:18,323-Speed 246.35 samples/sec   Loss 8.6657   LearningRate 0.0025000   Epoch: 5   Global Step: 35100   Required: 0 hours
+Training: 2021-11-09 17:20:44,366-Speed 245.78 samples/sec   Loss 8.3593   LearningRate 0.0025000   Epoch: 5   Global Step: 35150   Required: 0 hours
+Training: 2021-11-09 17:21:10,365-Speed 246.19 samples/sec   Loss 8.6588   LearningRate 0.0025000   Epoch: 5   Global Step: 35200   Required: 0 hours
+Training: 2021-11-09 17:21:36,364-Speed 246.20 samples/sec   Loss 8.7016   LearningRate 0.0025000   Epoch: 5   Global Step: 35250   Required: 0 hours
+Training: 2021-11-09 17:22:02,306-Speed 246.73 samples/sec   Loss 8.4647   LearningRate 0.0025000   Epoch: 5   Global Step: 35300   Required: 0 hours
+Training: 2021-11-09 17:22:28,280-Speed 246.43 samples/sec   Loss 8.6629   LearningRate 0.0025000   Epoch: 5   Global Step: 35350   Required: 0 hours
+Training: 2021-11-09 17:22:54,275-Speed 246.24 samples/sec   Loss 8.5170   LearningRate 0.0025000   Epoch: 5   Global Step: 35400   Required: 0 hours
+Training: 2021-11-09 17:23:20,270-Speed 246.23 samples/sec   Loss 8.4111   LearningRate 0.0025000   Epoch: 5   Global Step: 35450   Required: 0 hours
+Training: 2021-11-09 17:23:46,311-Speed 245.80 samples/sec   Loss 8.8516   LearningRate 0.0025000   Epoch: 5   Global Step: 35500   Required: 0 hours
+Training: 2021-11-09 17:24:12,349-Speed 245.83 samples/sec   Loss 8.5831   LearningRate 0.0025000   Epoch: 5   Global Step: 35550   Required: 0 hours
+Training: 2021-11-09 17:24:38,342-Speed 246.26 samples/sec   Loss 8.6602   LearningRate 0.0025000   Epoch: 5   Global Step: 35600   Required: 0 hours
+Training: 2021-11-09 17:25:04,327-Speed 246.31 samples/sec   Loss 8.4589   LearningRate 0.0025000   Epoch: 5   Global Step: 35650   Required: 0 hours
+Training: 2021-11-09 17:25:30,259-Speed 246.83 samples/sec   Loss 8.3987   LearningRate 0.0025000   Epoch: 5   Global Step: 35700   Required: 0 hours
+Training: 2021-11-09 17:25:56,198-Speed 246.76 samples/sec   Loss 8.6035   LearningRate 0.0025000   Epoch: 5   Global Step: 35750   Required: 0 hours
+Training: 2021-11-09 17:26:22,187-Speed 246.27 samples/sec   Loss 8.6224   LearningRate 0.0025000   Epoch: 5   Global Step: 35800   Required: 0 hours
+Training: 2021-11-09 17:26:48,156-Speed 246.48 samples/sec   Loss 8.6400   LearningRate 0.0025000   Epoch: 5   Global Step: 35850   Required: 0 hours
+Training: 2021-11-09 17:27:14,185-Speed 245.89 samples/sec   Loss 8.5693   LearningRate 0.0025000   Epoch: 5   Global Step: 35900   Required: 0 hours
+Training: 2021-11-09 17:27:40,179-Speed 246.25 samples/sec   Loss 8.7186   LearningRate 0.0025000   Epoch: 5   Global Step: 35950   Required: 0 hours
+Training: 2021-11-09 17:28:06,196-Speed 246.02 samples/sec   Loss 8.4953   LearningRate 0.0025000   Epoch: 5   Global Step: 36000   Required: 0 hours
+Training: 2021-11-09 17:29:36,264-[agedb_30][36000]XNorm: 15.176670
+Training: 2021-11-09 17:29:36,264-[agedb_30][36000]Accuracy-Flip: 0.73400+-0.01594
+Training: 2021-11-09 17:29:36,264-[agedb_30][36000]Accuracy-Highest: 0.75017
+Training: 2021-11-09 17:33:19,155-[dev_00][36000]XNorm: 17.403798
+Training: 2021-11-09 17:33:19,156-[dev_00][36000]Accuracy-Flip: 0.52907+-0.04001
+Training: 2021-11-09 17:33:19,156-[dev_00][36000]Accuracy-Highest: 0.53020
+Training: 2021-11-09 17:34:57,412-[dev_04][36000]XNorm: 17.419674
+Training: 2021-11-09 17:34:57,412-[dev_04][36000]Accuracy-Flip: 0.48809+-0.01743
+Training: 2021-11-09 17:34:57,412-[dev_04][36000]Accuracy-Highest: 0.50657
+Training: 2021-11-09 17:35:23,954-Speed 14.62 samples/sec   Loss 8.6953   LearningRate 0.0025000   Epoch: 5   Global Step: 36050   Required: 0 hours
+Training: 2021-11-09 17:35:50,564-Speed 240.54 samples/sec   Loss 8.6473   LearningRate 0.0025000   Epoch: 5   Global Step: 36100   Required: 0 hours
+Training: 2021-11-09 17:36:16,955-Speed 242.52 samples/sec   Loss 8.5992   LearningRate 0.0025000   Epoch: 5   Global Step: 36150   Required: 0 hours
+Training: 2021-11-09 17:36:43,375-Speed 242.27 samples/sec   Loss 8.5685   LearningRate 0.0025000   Epoch: 5   Global Step: 36200   Required: 0 hours
+Training: 2021-11-09 17:37:09,797-Speed 242.26 samples/sec   Loss 8.4868   LearningRate 0.0025000   Epoch: 5   Global Step: 36250   Required: 0 hours
+Training: 2021-11-09 17:37:36,311-Speed 241.41 samples/sec   Loss 8.5951   LearningRate 0.0025000   Epoch: 5   Global Step: 36300   Required: 0 hours
+Training: 2021-11-09 17:38:02,843-Speed 241.24 samples/sec   Loss 8.4973   LearningRate 0.0025000   Epoch: 5   Global Step: 36350   Required: 0 hours
+Training: 2021-11-09 17:38:29,370-Speed 241.30 samples/sec   Loss 8.3224   LearningRate 0.0025000   Epoch: 5   Global Step: 36400   Required: 0 hours
+Training: 2021-11-09 17:38:55,894-Speed 241.31 samples/sec   Loss 8.5832   LearningRate 0.0025000   Epoch: 5   Global Step: 36450   Required: 0 hours
+Training: 2021-11-09 17:39:22,251-Speed 242.85 samples/sec   Loss 8.6290   LearningRate 0.0025000   Epoch: 5   Global Step: 36500   Required: 0 hours
+Training: 2021-11-09 17:39:48,502-Speed 243.83 samples/sec   Loss 8.5787   LearningRate 0.0025000   Epoch: 5   Global Step: 36550   Required: 0 hours
+Training: 2021-11-09 17:40:14,727-Speed 244.08 samples/sec   Loss 8.7571   LearningRate 0.0025000   Epoch: 5   Global Step: 36600   Required: 0 hours
+Training: 2021-11-09 17:40:40,999-Speed 243.63 samples/sec   Loss 8.6146   LearningRate 0.0025000   Epoch: 5   Global Step: 36650   Required: 0 hours
+Training: 2021-11-09 17:41:07,204-Speed 244.25 samples/sec   Loss 8.4868   LearningRate 0.0025000   Epoch: 5   Global Step: 36700   Required: 0 hours
+Training: 2021-11-09 17:41:33,352-Speed 244.80 samples/sec   Loss 8.6617   LearningRate 0.0025000   Epoch: 5   Global Step: 36750   Required: 0 hours
+Training: 2021-11-09 17:41:59,415-Speed 245.60 samples/sec   Loss 8.3758   LearningRate 0.0025000   Epoch: 5   Global Step: 36800   Required: 0 hours
+Training: 2021-11-09 17:42:25,467-Speed 245.69 samples/sec   Loss 8.4691   LearningRate 0.0025000   Epoch: 5   Global Step: 36850   Required: 0 hours
+Training: 2021-11-09 17:42:51,505-Speed 245.83 samples/sec   Loss 8.7190   LearningRate 0.0025000   Epoch: 5   Global Step: 36900   Required: 0 hours
+Training: 2021-11-09 17:43:17,539-Speed 245.86 samples/sec   Loss 8.6225   LearningRate 0.0025000   Epoch: 5   Global Step: 36950   Required: 0 hours
+Training: 2021-11-09 17:43:43,579-Speed 245.80 samples/sec   Loss 8.4053   LearningRate 0.0025000   Epoch: 5   Global Step: 37000   Required: 0 hours
+Training: 2021-11-09 17:44:09,577-Speed 246.21 samples/sec   Loss 8.3537   LearningRate 0.0025000   Epoch: 5   Global Step: 37050   Required: 0 hours
+Training: 2021-11-09 17:44:35,559-Speed 246.34 samples/sec   Loss 8.6745   LearningRate 0.0025000   Epoch: 5   Global Step: 37100   Required: 0 hours
+Training: 2021-11-09 17:45:01,580-Speed 245.99 samples/sec   Loss 8.3483   LearningRate 0.0025000   Epoch: 5   Global Step: 37150   Required: 0 hours
+Training: 2021-11-09 17:45:19,883-Pytorch Model Saved in '/output/webface_r50_512_5/backbone.pth'
